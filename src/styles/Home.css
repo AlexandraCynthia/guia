@@ -35,7 +35,7 @@
 }
 
 .skills {
-  font-size: 35px;
+  font-size: 16px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -49,11 +49,12 @@
 
 .skills .list {
   list-style: none;
-  width: 60%;
+  width: 70%;
 }
 
 .list span {
-  font-size: 20px;
+  font-size: 18px;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -71,7 +72,8 @@
     text-align: center;
   }
   .list {
-    padding: 0;
+    padding:0;
+ 
   }
 
   .skills h2 {

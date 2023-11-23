@@ -23,17 +23,34 @@ function Home () {
         <h1> Skills </h1>
         <ol className='list'>
           <li className='item'>
-            <h2> Front-End </h2>
-            <span>
-              ReactJS, Angular, Redux, HTML, CSS.
-            </span>
+            <h2> Tipos de usuario </h2>
+            <li>
+            &#45; TGA : Usuarios que trabajan directamente para TGP. 
+            </li>
+            <li>
+            &#45; YTG: Usuarios externos o contratistas
+            </li>
+
+            
           </li>
 
           <li className='item'>
-            <h2> Front-End </h2>
-            <span>
-              ReactJS, Angular, Redux, HTML, CSS.
-            </span>
+            <h2> Tipos de ticket </h2>
+            <li>
+            &#45; Ticket resuelto: Encuesta llega en 05 días
+            </li>
+            <br />
+            <li>
+            &#45; Ticket cerrado: Encuesta llega inmediatamente
+            </li>
+            <br />
+            <li>
+            &#45; Ticket cancelado: Cuando el problema se resolvió sin ayuda de mesa de ayuda, también por duplicidad.  
+            </li>
+            <br />
+            <li>
+            &#45; Envío de ticket por correo: Marcar “Send Email" solo cuando ya se haya culminado la atención, se haya derivado el ticket al área correspondiente, o el inconveniente haya sido solucionado. El estado "pendiente" se seleccionará para más tarde asignar un técnico N2. Una vez derivado al N2, se seleccionará “send and email". 
+            </li>
           </li>
 
           <li className='item'>
