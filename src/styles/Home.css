@@ -1,7 +1,7 @@
 .home {
   width: 100%;
   align-items: center;
-  font-family: "Arial", sans-serif;
+  font-family: 'Nova Square', sans-serif;
   color: #dfe1ee;
 }
 
@@ -79,4 +79,38 @@
   .skills h2 {
     font-size: 30px;
   }
+}
+
+.cuadrotexto{
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  margin-left: 50px;
+  background-color: #E7BCDE;
+  width: 540px;
+  height: auto;
+  line-height: 1.5;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  margin-right: 40px;
+  margin-top: 20px;
+  text-align: justify
+}
+
+.general{
+  width: auto;
+  height: auto;
+  background-color: #E7BCDE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
 }
