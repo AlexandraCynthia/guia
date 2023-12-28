@@ -13,15 +13,16 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="Actualización de directorio activo y en office 365 - Fotografia"
+          date="Derivar ticket a infraestructura"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          xxx
+          Actualización de directorio activo y en office 365 - Fotografia
           </h3>
           <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1701385978/Guia/foto_office_365_smpiuz.png" height="auto" width="450px" alt="" /></p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014 - 2018"
@@ -38,6 +39,7 @@ function Experience() {
 
           <p> Computer Science</p>
         </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2018 - 2020"
