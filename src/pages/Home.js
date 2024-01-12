@@ -81,7 +81,22 @@ function Home () {
           <li>En usuarios TGA, lo deberá solicitar el jefe inmediato por correo al service desk. Para usuarios YTG, lo deberá solicitar el responsable TGP y Gerente del área.</li>
          </div>
 
+          <div className="cuadrotexto">
+            <b>PIN de impresión:</b>
+            <li>En este <a href="http://tluriispr01.tgp.net/osv/frmConsultaPINimpresion.aspx"><b>enlace</b></a> se puede validar PIN de impresión.</li>
+          </div>
 
+          <div className="cuadrotexto">
+            <b>Colas de impresión:</b>
+            <p>En caso no se pueda realizar de forma directa, ingresar en carpeta escaneo, ejecutar Driver_Epson_x64\WINX64\SETUP, y luego dar en connect en las siguientes rutas: </p>
+             <li>Lima:  \\tlimps02</li>
+             <li>Ayacucho: \\Tayaps01</li>
+             <li>Pisco: \\Tpisps01</li>
+             <li>Kiteni-Aeródromo-PS2: \\TPS2PS01</li>
+             <li>Kamani: \\TKAMPS02</li>
+             <li>PS1: \\TPS1PS01</li>
+            
+          </div>
 
         </div>
  
