@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { useParams } from 'react-router-dom'
 import { ProjectList } from '../helpers/ProjectList';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -21,3 +21,4 @@ function ProjectDisplay() {
   }
 
 export default ProjectDisplay;
+*/

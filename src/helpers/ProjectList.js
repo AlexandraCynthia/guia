@@ -1,11 +1,11 @@
-import Proj1 from "../assets/proj1.jpg";
+/*import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpeg";
 import Proj3 from "../assets/proj3.jpg";
 import Proj4 from "../assets/proj4.jpeg";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Descargar semilla",
     image: Proj1,
     skills: "JavaScript,HTML,CSS",
   },
@@ -26,3 +26,4 @@ export const ProjectList = [
   }
   
 ];
+*/

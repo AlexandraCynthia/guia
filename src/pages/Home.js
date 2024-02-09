@@ -45,10 +45,9 @@ function Home () {
             <li><b>tgp.mysharepoint</b>: One drive para usuarios TGA. Ellos mismos otorgarán accesos a sus contactos.</li>
           </div>
 
-
           <div className='cuadrotexto'>
             <b>Licenciamiento:</b> 
-            <li>Si un usuario desea solicitar licencia de un software, por ejemplo NITRO PDF, debemos brindarle el URL <a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/licen/Lists/Formulario%20de%20Sustento/AllItems.aspx" target="_blank"><b>(hacer click aquí)</b></a>, donde deberá ingresar su solicitud y justificación del porque lo requiere. </li>
+            <li>Si un usuario desea solicitar licencia de un software, por ejemplo NITRO PDF, debemos brindarle el URL <a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/licen/Lists/Formulario%20de%20Sustento/AllItems.aspx" target="_blank"><b>(hacer click aquí)</b></a>, donde deberá ingresar su solicitud y justificación del porque lo requiere. Para la aprobación se requerirá el visto bueno de su gerencia y de Ivone Jara. </li>
           </div>
 
           <div className='cuadrotexto'>
@@ -83,20 +82,32 @@ function Home () {
 
           <div className="cuadrotexto">
             <b>PIN de impresión:</b>
-            <li>En este <a href="http://tluriispr01.tgp.net/osv/frmConsultaPINimpresion.aspx"><b>enlace</b></a> se puede validar PIN de impresión.</li>
+            <li>En este <a href="http://tluriispr01.tgp.net/osv/frmConsultaPINimpresion.aspx" target="_blank"><b>enlace</b></a> se puede validar PIN de impresión.</li>
           </div>
 
           <div className="cuadrotexto">
             <b>Colas de impresión:</b>
-            <p>En caso no se pueda realizar de forma directa, ingresar en carpeta escaneo, ejecutar Driver_Epson_x64\WINX64\SETUP, y luego dar en connect en las siguientes rutas: </p>
+            <p>Si no es posible conectar, instalar Driver_Epson_x64\WINX64\SETUP, y luego dar en connect en las siguientes rutas: </p>
              <li>Lima:  \\tlimps02</li>
              <li>Ayacucho: \\Tayaps01</li>
              <li>Pisco: \\Tpisps01</li>
              <li>Kiteni-Aeródromo-PS2: \\TPS2PS01</li>
              <li>Kamani: \\TKAMPS02</li>
              <li>PS1: \\TPS1PS01</li>
-            
-          </div>
+            </div>
+
+            <div className="cuadrotexto">
+              <b>Cuentas SAP</b>
+              <li>Para atención de bloqueos, reseteos de usuarios SAP, derivar directamente al área de SAP.</li>
+              <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1707423322/Guia/FORMULARIO_CREACION_DE_CUENTA_SAP_vybt2q.docx">formulario</a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno del Gerente Neptali Mayorga y derivar al área de SAP</li>
+              <li>Usuarios SAP SGMM (CMgP): Derivar con wendy camarena wcamarena@tgp.com.pe.</li>
+            </div>
+
+            <div className="cuadrotexto">
+              <b>Solicitar Firma de Outlook</b>
+              <li>Se deberá enviar correo a Ana Maria Urrutia y Claudia Tarazona.</li>
+            </div>
+
 
         </div>
  

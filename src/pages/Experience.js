@@ -64,6 +64,7 @@ function Experience() {
           </h3>
             <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499073/Guia/zoom_vkwsbd.png" alt="" height="auto" width="450px" /></p>
         </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Derivar con Telecomunicaciones"
@@ -76,6 +77,21 @@ function Experience() {
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499067/Guia/corte_de_internet_ef1ah3.png" alt="" height="auto" width="450px"/></p> 
          
         </VerticalTimelineElement>
+        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Telecomunicaciones con Paz Nelson"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Solicitar asignación de celular y equipo
+          </h3>
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1707349617/Guia/asignacion_it0lzy.png" alt="" height="auto" width="450px"/></p> 
+         
+        </VerticalTimelineElement>
+        
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Derivar con Telecomunicaciones"
