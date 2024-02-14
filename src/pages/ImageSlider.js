@@ -40,11 +40,14 @@ const dotsContainerStyles = {
   justifyContent: "center",
 };
 
-const dotStyle = {
-  margin: "0 3px",
+const dotStyle = (isSelected)=>({
+  margin: "0 8px",
   cursor: "pointer",
   fontSize: "20px",
-};
+  textDecoration:isSelected ? "underline": "none",
+  color:isSelected ? "#D04848": "#211951",
+  fontWeight:"bold"
+});
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -80,11 +83,11 @@ const ImageSlider = ({ slides }) => {
       <div style={dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
           <div
-            style={dotStyle}
+            style={dotStyle(slideIndex===currentIndex)}
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >
-            ●
+            {slideIndex + 1}
           </div>
         ))}
       </div>

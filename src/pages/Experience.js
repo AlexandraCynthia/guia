@@ -40,7 +40,8 @@ function Experience() {
      
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Derivar con Telecomunicaciones, solo si permite forzar políticas"
+          date="Derivar con Telecomunicaciones. Listar descartes: 1.Logueo correcto, ejem TGP\YTGX;
+          2. que tenga Proxy actual; 3. forzado de políticas correctamente sin mensaje de error; 4. validación en otros navegadores."
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -86,7 +87,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Solicitar asignación de celular y equipo
           </h3>
-          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1707349617/Guia/asignacion_it0lzy.png" alt="" height="auto" width="450px"/></p> 
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1707926469/Guia/telecom_nbixjm.png" alt="" height="auto" width="450px"/></p> 
          
         </VerticalTimelineElement>
         
@@ -130,22 +131,6 @@ function Experience() {
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499073/Guia/zoom_vkwsbd.png" height="auto" width="450px" alt="" /></p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="Derivar con Infraestructura"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-          Desbloqueo de correo - remitente
-          </h3>
-
-          <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499070/Guia/bloqueo_correo_nu77ly.png" alt="" height="auto" width="450px"/></p>
-          <h4 className="vertical-timeline-element-subtitle">
-            Si el correo muestra la opción de "release email" intentar primero de esa forma.
-          </h4>
-         
-        </VerticalTimelineElement>
         
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -268,6 +253,22 @@ function Experience() {
             <p>Asociar asset del equipo del usuario en el ticket</p>
             
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Atención en nivel 1"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Instalar VPN en equipo del usuario
+          </h3>
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499046/Guia/instalacion_vpn_ax1fkk.png" alt="" height="auto" width="450px" /></p>
+          <p>
+           Instalación y configuración de checkpoint y Rsa.
+          </p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Atención en nivel 2"
@@ -351,20 +352,7 @@ function Experience() {
           
             <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499051/Guia/retirar_colocar_disco_p1agog.png" alt="" height="auto" width="450px" /></p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="Atención en nivel 1"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Instalar VPN en equipo del usuario
-          </h3>
-          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499046/Guia/instalacion_vpn_ax1fkk.png" alt="" height="auto" width="450px" /></p>
-          <p>
-           Instalación y configuración de checkpoint y Rsa.
-          </p>
-        </VerticalTimelineElement>
+       
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -378,6 +366,20 @@ function Experience() {
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499067/Guia/claroty_hwdgfj.png" alt="" height="auto" width="450px"/></p>
               
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con seguridad de la información. La liberación de correos que están en cuarentena está a cargo de Ciberseguridad. Inclusive cuando un usuario solicita añadir un correo o dominio a la lista blanca, este pedido debe pasar primero por la evaluación de Ciberseguridad."
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Liberar correos en cuarentena
+          </h3>
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1707927229/correos_cuarentena_vmppy1.png" alt="" height="auto" width="450px"/></p>
+              
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Derivar a seguridad de la información"
