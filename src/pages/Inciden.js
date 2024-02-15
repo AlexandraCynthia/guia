@@ -4,7 +4,7 @@ import "../styles/inciden.css"
 
 const Inciden = () => {
   const slides1 = [
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/1_drpw9u.png", title: "beach"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/1_drpw9u.png"},
     { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/2_qwnfxk.png", title: "forest" },
     { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/3_xvjyme.png", title: "city" },
     { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707947495/Guia/deshab_gav852.png", title: "city" },
