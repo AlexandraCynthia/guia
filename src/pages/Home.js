@@ -41,7 +41,9 @@ function Home () {
 
           <div className='cuadrotexto'>
             <b>Sharepoint:</b>
-            <li><b>tgp.sharepoint</b>: repositorio de Sharepoint (para usuarios TGA e YTG). Para usuarios YTG requiere permisos de responsable TGP + gerente del área. Para usuarios TGA se ingresa directamente la solicitud.</li>
+            <li><b>tgp.sharepoint</b>: repositorio de Sharepoint (para usuarios TGA e YTG). Para usuarios YTG(externos) requiere permisos de responsable TGP + gerente del área. </li>
+            <li>Para usuarios TGA se ingresa directamente la solicitud; con excepción del área de ambiental, que requiere el visto bueno del Sr. Hernani.</li>
+            <li>Para el respectivo ticket de solicitud de accesos indicar: a.Tipo de acceso (lectura y/o escritura), b.correo que se registrará, c. URL de sharepoint donde desea acceder.</li>
             <li><b>tgp.mysharepoint</b>: One drive para usuarios TGA. Ellos mismos otorgarán accesos a sus contactos.</li>
           </div>
 
@@ -57,7 +59,24 @@ function Home () {
 
           <div className='cuadrotexto'>
             <b>Crear nuevo usuario contratista:</b>
-            <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://tluriam01.tgp.net:8443/aveksa/main?ReqType=Dialog&PageID=RequestFormWizard&BreadcrumbLevel=0&Action=New&CRButton=77&formToken=L0X9pDFacTaR%7B7ZBM5V4qLSVBtb6&includeTerminated=true" target='_blank'>enlace</a> para solicitar la creación de usuario YTG.</li>
+            <li>Se requiere la aprobación de Ivone Jara (Infraestructura) y Gianmarco Ordoñez (recursos humanos).</li>
+            <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://tluriam01.tgp.net:8443/aveksa/main?ReqType=Dialog&PageID=RequestFormWizard&BreadcrumbLevel=0&Action=New&CRButton=77&formToken=L0X9pDFacTaR%7B7ZBM5V4qLSVBtb6&includeTerminated=true" target='_blank'><b>enlace</b></a> para solicitar la creación de nuevo usuario contratista.</li>
+            </div>
+
+
+          <div className='cuadrotexto'>
+            <b>Crear nuevo usuario VPN contratista:</b>
+            <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/vpn/Paginas/Home.aspx" target='_blank'><b>enlace</b></a> para solicitar la creación de usuario VPN contratista.</li>
+            <li>Una vez generado el usuario VPN (con aprobación de Ivone Jara), se derivará a Telecomunicaciones para la respectiva habilitación en el Firewall.</li> 
+            <li>Una vez que Telecomunicaciones habilite al usuario en Firewall, nos comunicamos con el usuario para configurar checkpoint y RSA en su equipo.</li>
+            <li>Para esto se deberá adjuntar en el ticket, el documento de excel detallando los accesos que este usuario necesitará <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708145464/Plantilla_de_configuraci%C3%B3n_usuario_VPN_client_to_site_qxvicd.xlsx" target='_blank'><b>[descargar]</b></a>.</li>
+          </div> 
+
+          <div className='cuadrotexto'>
+            <b>Acceso a VPN para usuarios TGP</b>
+            <li>No requiere vistos buenos, se ingresa directamente ticket derivado a Telecomunicaciones. </li>
+            <li>Una vez que Telecomunicaciones habilite al usuario en Firewall, nos comunicamos con el usuario para configurar checkpoint y RSA en su equipo.</li>
+
           </div>
 
           <div className='cuadrotexto'>
@@ -71,7 +90,7 @@ function Home () {
           <div className='cuadrotexto'>
             <b>Cuentas de usuario:</b>
              <li><b>Desbloqueo</b>: Se realizará a través del HDO realizando las preguntas de seguridad requeridas (nombre, apellido y siglas de usuario).</li>
-             <li><b>Reseteo de contraseña</b>: Se podrá hacer a través del HDO solicitando preguntas de seguridad. El usuario también podrá realizar con las teclas ctrl + alt + spr, donde al bloquear la pantalla le mostrará dicha opción. </li>
+             <li><b>Reseteo de contraseña</b>: Se podrá hacer a través del HDO solicitando preguntas de seguridad (nombres, apellidos, siglas, DNI, si es externo: consultar también cargo, empresa, responsable tgp). El usuario también podrá realizar con las teclas ctrl + alt + spr, donde al bloquear la pantalla le mostrará dicha opción. </li>
              <li><b>Extensión de cuenta de usuario</b>: Lo deberá solicitar el jefe inmediato del usuario al correo de service desk.</li>
           </div>
 
@@ -99,8 +118,8 @@ function Home () {
             <div className="cuadrotexto">
               <b>Cuentas SAP</b>
               <li>Para atención de bloqueos, reseteos de usuarios SAP, derivar directamente al área de SAP.</li>
-              <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1707423322/Guia/FORMULARIO_CREACION_DE_CUENTA_SAP_vybt2q.docx">formulario</a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno del Gerente Neptali Mayorga y derivar al área de SAP</li>
               <li>Usuarios SAP SGMM (CMgP): Derivar con wendy camarena wcamarena@tgp.com.pe.</li>
+              <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1707423322/Guia/FORMULARIO_CREACION_DE_CUENTA_SAP_vybt2q.docx"><b>formulario</b></a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno del Gerente Neptali Mayorga y derivar al área de SAP</li>
             </div>
 
             <div className="cuadrotexto">
@@ -108,6 +127,76 @@ function Home () {
               <li>Se deberá enviar correo a Ana Maria Urrutia y Claudia Tarazona.</li>
             </div>
 
+            <div className="cuadrotexto">
+              <b>Solicitud de accesos a:</b>
+              
+              <b>Zoom</b>
+              <li>Todos los usuarios tienen acceso, se les podrá instalar sin visto bueno.</li>
+
+              <b>Documentos de drive / Google Docs</b>
+              <li>Se solicitará aprobación de Ernesto Landa, después de su aprobación se deriva a Telecomunicaciones.</li>
+              <li>También se les sugiere hacer uso de MySharepoint para documentos compartidos con usuarios externos.</li>
+            </div>
+         
+
+            <div className="cuadrotexto">
+              <b>Tipos de antivirus:</b>
+              <li> Apex One para usuarios TGP.</li>
+              <li> Trend micro worry free para externos.</li>
+              <li>Si el antivirus estuviera bloqueando algo, solo debemos dar click en log, y ver Device control o Firewall.</li>
+            </div>
+
+            <div className="cuadrotexto">
+              <b>Derivaciones Telecomunicaciones</b>
+              <b>Stefanini Tsoc:</b>
+              <li>Configuración de cliente VPN</li>
+              <li>Configuración de acceso a página web (Caso particular)</li>
+              <b>Equans Noc</b>
+              <li>Problema de acceso a la red TGP_WLAN</li>
+              <li>Problema de acceso a la red TGP_Mobile</li>
+              <li>Problema de acceso a internet (Caso general)</li>
+            </div>
+              
+            <div className="cuadrotexto">
+              <b>Migración de equipo a dominio TGP.</b>
+              <li> Usuario debe tener cuenta de red vigente.</li>
+              <li> Visto bueno de responsable TGP.</li>
+              <li> Presentar declaración jurada con mínimo windows 10 pro, no debe tener antivirus instalado.</li>
+            </div>
+
+            
+          <div className="cuadrotexto">
+            <b>Creación de grupo de Teams:</b>
+            <li>En tgp no se pueden crear grupos de Teams. Si ellos quieren crear grupo deben de solicitar a través de mesa de ayuda la creación de un grupo en teams. Enviarle  <a href='https://tlurapp03/Forms/Equipos_Teams' target="_blank"><b>este formulario</b></a>, donde el usuario y contraseña son: solicitud y solicitud.</li>
+          </div>
+
+          <div className="cuadrotexto">
+            <b>Acceso a la red Guest en zona selva y sierra/ Pedir ok de Ernesto Landa:</b>
+            <li><b>Para celulares: </b>Indicar la MAC del equipo, marca, modelo, número de celular, y correo a registrar</li>
+            <li><b>Para laptops: </b>Adjuntar declaración jurada del equipo y correo a registrar. Se deberá solicitar a un N2 que realice la verificación del equipo.</li>
+          </div>
+
+          <div className="cuadrotexto">
+            <b>Proxy TGP</b>
+            <li><b>Actual </b>http://tlurnet01.tgp.net/proxy.pac</li>
+            <li><b>Antiguo </b>http://tlurpx01.tgp.net/accelerated_pac_base.pac</li>
+            <li>Se deberá forzar políticas en caso no se encuentre configurado con nuevo proxy.</li>
+          </div>
+
+          <div className="cuadrotexto">
+            <b>Parámetros SAP - SGMM Producción</b>
+            <b> Desde la red de TGP:</b>
+            <li>Descripción/Description: <font color="#4F709C">SGMM Producción (Red TGP)</font></li>
+            <li>Servidor de aplicación/Application Server: <font color="#4F709C">172.30.111.213</font></li>
+            <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
+            <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
+            <b>Desde una red externa:</b>
+            <li>Descripción/Description: <font color="#4F709C">SGMM Producción (Red Externa)</font></li>
+            <li>String de SAP router/SAP router String: <font color="#4F709C">/H/52.200.35.177</font></li>
+            <li>Servidor de aplicación/Application Server: <font color="#4F709C">172.30.111.213</font></li>
+            <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
+            <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
+           </div>
 
         </div>
  

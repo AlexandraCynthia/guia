@@ -85,30 +85,35 @@
   display: flex;
   flex-direction: column;
   vertical-align: top;
-  margin-left: 50px;
+  margin-left: 70px;
   background-color: #E7BCDE;
-  width: 540px;
+  width: 500px;
   height: auto;
   line-height: 1.5;
   border-radius: 5px;
   color: black;
-  padding: 10px;
   border-width: 1.5px;
   border-style: solid;
   border-color: black;
   margin-right: 40px;
   margin-top: 20px;
-  text-align: justify
+  padding: 15px;
+  text-align: justify;
+  padding-left:20px;
+  padding-right: 4%;
 }
 
 .general{
-  width: auto;
+  width: 50%;
   height: auto;
   background-color: #E7BCDE;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 40px;
+  padding-top: 1%;
+  margin-top: 2%;
+
 }
 
 a {

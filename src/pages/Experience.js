@@ -21,7 +21,7 @@ function Experience() {
             Bloqueos constantes de usuario de red
           </h3>
                <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499071/Guia/bloqueo_de_usuario_constante_xv5wdg.png" alt="" height="auto" width="450px" /> </p>
-        <p>En ticket colocar hostname, ip, y capturas de borrado de contraseñas</p>
+        <p>En ticket colocar hostname, ip, captura de GPUPDATE /FORCE y capturas de borrado de contraseñas</p>
           
         </VerticalTimelineElement>
 
@@ -40,8 +40,8 @@ function Experience() {
      
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Derivar con Telecomunicaciones. Listar descartes: 1.Logueo correcto, ejem TGP\YTGX;
-          2. que tenga Proxy actual; 3. forzado de políticas correctamente sin mensaje de error; 4. validación en otros navegadores."
+          date="Derivar con Telecomunicaciones. Listar descartes: 1.Captura de logueo correcto, ejem TGP\YTGX;
+          2. captura de Proxy actual; 3. GPUPDATE /FORCE sin mensaje de error; 4. validación en otros navegadores."
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -125,7 +125,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Youtube y redes sociales para gerentes
+            Youtube y redes sociales para gerentes. 
           </h3>
           <p> Si es una página distinta si debe pasar primero por aprobación de E. Landa y luego recién derivar a Telecom.</p>
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499073/Guia/zoom_vkwsbd.png" height="auto" width="450px" alt="" /></p>
