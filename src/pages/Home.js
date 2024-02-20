@@ -198,6 +198,21 @@ function Home () {
             <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
            </div>
 
+           <div className="cuadrotexto">
+            <b>Parámetros SAP - SGMM Producción</b>
+            <b> Desde la red de TGP:</b>
+            <li>Descripción/Description: <font color="#4F709C">SGMM Producción (Red TGP)</font></li>
+            <li>Servidor de aplicación/Application Server: <font color="#4F709C">172.30.111.213</font></li>
+            <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
+            <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
+            <b>Desde una red externa:</b>
+            <li>Descripción/Description: <font color="#4F709C">SGMM Producción (Red Externa)</font></li>
+            <li>String de SAP router/SAP router String: <font color="#4F709C">/H/52.200.35.177</font></li>
+            <li>Servidor de aplicación/Application Server: <font color="#4F709C">172.30.111.213</font></li>
+            <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
+            <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
+           </div>
+
         </div>
  
       </div>
