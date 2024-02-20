@@ -105,8 +105,7 @@ const Inciden = () => {
             <li>Al realizarlo, saldrá una ventana y damos click en "si".</li>
             <li>Luego abrimos administrador de tareas, seleccionamos <i>"explorer.exe"</i> y <i>"Finalizar tarea"</i></li>
             <li>Luego, en el mismo administrador de tareas, dar click en <i>"Ejecutar nueva tarea"</i> y escribir <i>"Explorer"</i></li>
-            
-          </ol>
+            </ol>
         </div>
 
 
