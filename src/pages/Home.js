@@ -197,14 +197,6 @@ function Home () {
             <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
             <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
            </div>
-
-           <div className="cuadrotexto">
-            <b>AAAAAAAAAAAAa</b>
-            <li><b>Actual </b>http://tlurnet01.tgp.net/proxy.pac</li>
-            <li><b>Antiguo </b>http://tlurpx01.tgp.net/accelerated_pac_base.pac</li>
-            <li>AAAAAAAAAAAAAAAA.</li>
-          </div>
-
         </div>
  
       </div>
