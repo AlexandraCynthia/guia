@@ -67,9 +67,9 @@ function Home () {
           <div className='cuadrotexto'>
             <b>Crear nuevo usuario VPN contratista:</b>
             <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/vpn/Paginas/Home.aspx" target='_blank'><b>enlace</b></a> para solicitar la creación de usuario VPN contratista.</li>
-            <li>Una vez generado el usuario VPN (con aprobación de Ivone Jara), se derivará a Telecomunicaciones para la respectiva habilitación en el Firewall.</li> 
-            <li>Una vez que Telecomunicaciones habilite al usuario en Firewall, nos comunicamos con el usuario para configurar checkpoint y RSA en su equipo.</li>
+            <li>Una vez generado el usuario VPN (con aprobación de Ivone Jara), se generará ticket a Telecomunicaciones para la respectiva habilitación en el Firewall.</li> 
             <li>Para esto se deberá adjuntar en el ticket, el documento de excel detallando los accesos que este usuario necesitará <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708145464/Plantilla_de_configuraci%C3%B3n_usuario_VPN_client_to_site_qxvicd.xlsx" target='_blank'><b>[descargar]</b></a>.</li>
+            <li>Una vez que Telecomunicaciones habilite al usuario en Firewall, nos comunicamos con el usuario para configurar checkpoint y RSA en su equipo.</li>
           </div> 
 
           <div className='cuadrotexto'>
@@ -82,8 +82,8 @@ function Home () {
           <div className='cuadrotexto'>
             <b>Bases:</b>
             <li>Torre Panamá (OTP): Sede principal</li>
-            <li>Cusco: Kiteni, PS1, PS2, Kamani</li>
-            <li>Ayacucho: BOA, PS3, PS4, PCCH</li>
+            <li>Cusco  (selva): Kiteni, PS1, PS2, Kamani</li>
+            <li>Ayacucho (sierra): BOA, PS3, PS4, PCCH</li>
             <li>Pisco: San Clemente</li>
           </div>
 
@@ -197,6 +197,16 @@ function Home () {
             <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
             <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
            </div>
+
+           <div className="cuadrotexto">
+            <b>Aplicaciones para derivar con Marco Miranda</b>
+            <li>Isotools: https://tgp.esginnova.com</li>
+            <li>Plataforma OneSait</li>
+            <li>Sistema Star (vuelos)</li>
+
+            
+          </div>
+
         </div>
  
       </div>

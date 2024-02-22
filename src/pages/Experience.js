@@ -74,7 +74,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Corte de internet en base
           </h3>
-          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499067/Guia/corte_de_internet_ef1ah3.png" alt="" height="auto" width="450px"/></p> 
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1708620735/Guia/corte_de_red_athfht.png" alt="" height="auto" width="450px"/></p> 
          
         </VerticalTimelineElement>
         
