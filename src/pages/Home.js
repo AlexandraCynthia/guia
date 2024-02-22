@@ -13,7 +13,7 @@ function Home () {
       <div className='about'>
         <h2>Guía del N1</h2>
         <div className='prompt'>
-          <p>Resumen de los procedimientos generales, tickets y derivaciones </p>
+          <p className='titulo_'>Resumen de los procedimientos generales, tickets y derivaciones </p>
         <LinkedInIcon />
         <EmailIcon />
         <GithubIcon />
