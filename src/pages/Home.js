@@ -11,9 +11,9 @@ function Home () {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, my name is Ale</h2>
+        <h2>Guía del N1</h2>
         <div className='prompt'>
-          <p>A software developer with a passion for learning and creating </p>
+          <p>Resumen de los procedimientos generales, tickets y derivaciones </p>
         <LinkedInIcon />
         <EmailIcon />
         <GithubIcon />

@@ -27,7 +27,7 @@ function Navbar (){
             <Link to="/home">Información</Link>
             <Link to="/Incidencias">Incidencias</Link>
             <Link to="/request">Request type</Link>
-            <Link to="/documentos">Procesos</Link>
+            <Link to="/documentos">Documentos</Link>
         </div>
 
     </div>

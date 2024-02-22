@@ -85,7 +85,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Solicitar asignación de celular y equipo
+            Solicitar asignación de celular y equipo. Ya que este ticket lo atenderá Paz Nelson (derivado a una persona, no área), deberá colocarse Telecom Staff.
           </h3>
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1707926469/Guia/telecom_nbixjm.png" alt="" height="auto" width="450px"/></p> 
          
