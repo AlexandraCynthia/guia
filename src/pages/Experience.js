@@ -46,7 +46,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Incidencia con proxy / Bloqueo de todas las páginas web
+            Incidencia con proxy / Bloqueo de todas las páginas web / mensaje Forcepoint
           </h3>
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499069/Guia/problema_proxy_todo_se_bloquea_f71b0a.png" alt="" height="auto" width="450px" /></p>
          
@@ -419,6 +419,20 @@ function Experience() {
         
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499065/Guia/osinergmin_tablero_rdtbkm.png" alt=""  height="auto" width="450px"/></p>
         </VerticalTimelineElement>
+        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Aplicaciones"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+           Acceso a Extranet de proveedores
+          </h3>
+        
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1708622686/Guia/extranet_kspeop.png" alt=""  height="auto" width="450px"/></p>
+        </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Derivar con aplicaciones"
