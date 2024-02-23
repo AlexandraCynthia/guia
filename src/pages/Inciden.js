@@ -5,40 +5,44 @@ import "../styles/inciden.css"
 const Inciden = () => {
   const slides1 = [
     { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708142539/Guia/imagen_1_unz4m7.png"},
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/2_qwnfxk.png", title: "forest" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/3_xvjyme.png", title: "city" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707947495/Guia/deshab_gav852.png", title: "city" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708142685/img2_daxp4y.png", title: "italy" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707937193/Guia/4_jbhahk.png", title: "italy" }
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/2_qwnfxk.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707936895/Guia/3_xvjyme.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707947495/Guia/deshab_gav852.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708142685/img2_daxp4y.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707937193/Guia/4_jbhahk.png" }
 
   ];
 
 
   const slides2 = [
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic1_o63i6w.png", title: "beach" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949559/Guia/mic2_auusww.png", title: "boat" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic3_vkmrkr.png", title: "forest" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic4_xqwgq4.png", title: "city" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mimc5_mcg6sd.png", title: "italy" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949559/Guia/mic6_qhr08l.png", title: "italy" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic7_k4rscz.png", title: "italy" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic9_tt55qz.png", title: "italy" }
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic1_o63i6w.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949559/Guia/mic2_auusww.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic3_vkmrkr.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic4_xqwgq4.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mimc5_mcg6sd.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949559/Guia/mic6_qhr08l.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic7_k4rscz.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1707949558/Guia/mic9_tt55qz.png"}
 
   ];
 
   const slides3 = [
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708390071/Guia/carpeta_ocmp_d5fg6k.png", title: "beach" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708390073/Guia/comandos_pdqb5s.png", title: "boat" }
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708390071/Guia/carpeta_ocmp_d5fg6k.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708390073/Guia/comandos_pdqb5s.png"}
   ];
 
   const slides4 = [
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391747/Guia/icono_blanco_rylcsg.png", title: "beach" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391745/Guia/app_data_tnka4v.png", title: "boat" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391787/Guia/icon_cahche_uaosml.png", title: "boat" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391784/Guia/eliminar_archivo_hopb8v.png", title: "boat" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391781/Guia/expolores_epur2c.png", title: "boat" },
-    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391773/Guia/ejec_nueva_tarea_vjay7t.png", title: "boat" }
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391747/Guia/icono_blanco_rylcsg.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391745/Guia/app_data_tnka4v.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391787/Guia/icon_cahche_uaosml.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391784/Guia/eliminar_archivo_hopb8v.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391781/Guia/expolores_epur2c.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708391773/Guia/ejec_nueva_tarea_vjay7t.png"}
 
+  ];
+
+  const slides5 = [
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708703568/Guia/teamviewer_oeicwz.png" }
   ];
 
   const containerStyles = {
@@ -107,6 +111,19 @@ const Inciden = () => {
             <li>Luego, en el mismo administrador de tareas, dar click en <i>"Ejecutar nueva tarea"</i> y escribir <i>"Explorer"</i></li>
             </ol>
         </div>
+
+        
+        <div>
+          <h1>Teamviewer arroja ip 192.168 aún con red de TGP con cable ethernet</h1>
+          <div style={containerStyles}>
+            <ImageSlider slides={slides5} />
+          </div>
+          <ol class="texto">
+            <li>Solución: Solicitar al usuario abrir CMD y que escriba ipconfig y nos dicte la ip que debe iniciar con <b>172.30...</b></li>
+            <li>Luego con esa ip, nos conectamos a nuestro Teamviewer, y usamos la contraseña que le aparece al usuario en su aplicativo de Teamviewer.</li>
+            </ol>
+        </div>
+
 
 
     </div>

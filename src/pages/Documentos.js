@@ -24,6 +24,8 @@ function Documentos () {
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708641401/Inst_Como_configurar_una_firma_con_certificado_en_adobe_acrobat_hwmjjw.pptx">Configurar firma con certificado en adobe acrobat</a></b> </li>
             <li><b><a href="https://tgpweb.sharepoint.com/:x:/r/sites/GETI/sis/doc/_layouts/15/doc2.aspx?sourcedoc=%7B39A7A6BE-683C-4A36-9AD9-E896C7D590D6%7D&file=Programaci%C3%B3n_BOK_PCKamani_2024.xlsx&action=default&mobileredirect=true">Horarios N2</a></b> </li>
             <li><b><a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/licen/Lists/Formulario%20de%20Sustento/AllItems.aspx">Validar licencias de usuarios</a></b> </li>
+            <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708695535/Guia/GU%C3%8DA_DE_DE_USUARIO_PARA_SSPR_-_Usuario_Nuevo_sygwrb.docx">Manual de uso del Authenticator - nuevo usuario</a></b> </li>
+            <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708695535/Guia/GU%C3%8DA_DE_DE_USUARIO_PARA_SSPR_-_Usuario_Existente_imyptw.docx">Manual de uso del Authenticator - usuario existente</a></b> </li>
 
 
           </div>

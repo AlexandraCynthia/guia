@@ -155,7 +155,7 @@ function Experience() {
           </h3>
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499054/Guia/google_drive_tuyf6k.png" alt="" height="auto" width="450px" /></p>
           <p>
-           Para solicitudes como: agregar/quitar equipos a OU, actualizar información de cuentas de red, creación de grupos AD, eliminar GPOs, etc.
+           Para solicitudes como: agregar/quitar equipos a OU, actualizar información de cuentas de red, creación de grupos AD, eliminar GPOs, etc. Retirar/asignar acceso a Google Drive del proxy a una lista de usuarios.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

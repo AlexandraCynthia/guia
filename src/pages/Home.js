@@ -49,7 +49,7 @@ function Home () {
 
           <div className='cuadrotexto'>
             <b>Licenciamiento:</b> 
-            <li>Si un usuario desea solicitar licencia de un software, por ejemplo NITRO PDF, debemos brindarle el URL <a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/licen/Lists/Formulario%20de%20Sustento/AllItems.aspx" target="_blank"><b>(hacer click aquí)</b></a>, donde deberá ingresar su solicitud y justificación del porque lo requiere. Para la aprobación se requerirá el visto bueno de su gerencia y de Ivone Jara. </li>
+            <li>Si un usuario desea solicitar licencia de un software, por ejemplo NITRO PDF, debemos brindarle el URL <a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/licen/Lists/Formulario%20de%20Sustento/AllItems.aspx" target="_blank"><b>(hacer click aquí)</b></a>, donde deberá ingresar su solicitud y justificación del porque lo requiere. Para la aprobación se requerirá el visto bueno de su gerencia, jefe inmediato y de Ivone Jara. </li>
           </div>
 
           <div className='cuadrotexto'>
@@ -203,8 +203,19 @@ function Home () {
             <li>Isotools: https://tgp.esginnova.com</li>
             <li>Plataforma OneSait</li>
             <li>Sistema Star (vuelos)</li>
+          </div>
 
-            
+          <div className="cuadrotexto">
+            <b>Flujo documentario / olvidó contraseñas</b>
+            <li>Para sistema de flujos de documentos ingresar usuario de red y contraseña en mayúscula.</li>
+          </div>
+
+          <div className="cuadrotexto">
+            <b>Aprobaciones requeridas para la asignación de un equipo informático mayor:</b>
+            <li>Gerencia de TI, Gerencia del Área usuaria</li>
+            <b>Aprobaciones requeridas para la asignación de un equipo informático menor:</b>
+            <li>Aprobación de jefe inmediato</li>
+
           </div>
 
         </div>
