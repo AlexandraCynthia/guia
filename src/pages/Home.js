@@ -24,10 +24,34 @@ function Home () {
       <br />
       <div className='skills'> 
         <div className='general'>
+
+        <div className='cuadrotexto'>
+            <b>Speech de llamada:</b>
+            <li>Bienvenida: Bienvenido a la mesa de servicios, le saluda Alexandra. ¿Con quién tengo el gusto?</li>
+            <li>Despedida: Gracias por llamar a la mesa de ayuda de TGP, buenos días.</li>
+        </div>
+
+        <div className='cuadrotexto'>
+            <b>Speech para solicitud de confirmación para cierre de ticket:</b>
+            <p>Estimado(a),  </p>
+            <p>Buenos (Días, Tardes, Noches), nos tratamos de comunicar a través de teams y a su celular sin éxito, con respecto al ticket: “XXXXXX” favor de indicarnos su disponibilidad para retomar la atención, estaremos pendiente de su respuesta.</p>
+            <p>Nota: De no obtener respuesta en un lapso de 72hrs, se procederá a cancelar la atención.</p>
+            <p>[Añadir firma]</p>
+        </div>
+
+            
+        <div className='cuadrotexto'>
+            <b>Speech cuando usuario no responde para proceder con la atención:</b>
+            <p>Estimado(a),  </p>
+            <p>Buenos (Días, Tardes, Noches), nos tratamos de comunicar a través de teams y a su celular sin éxito, con respecto al ticket: “XXXXXX” favor de confirmarnos por este medio si se solucionó o atendió correctamente su (solicitud o incidente), para proceder a cerrar el ticket, de persistir el inconveniente favor de informarnos. Estaremos pendiente a su respuesta. </p>
+            <p>Nota: De no obtener respuesta en un lapso de 72hrs, se procederá a cerrar la atención.</p>
+            <p>[Añadir firma]</p>
+        </div>
+
           <div className='cuadrotexto'>
             <b>Tipos de usuario pertenecientes a dominio TGP:</b>
             <li> <b>TGA</b>: Usuarios que trabajan directamente para TGP. Solo laptop Lenovo thinkpad.</li>
-            <li> <b>YTG</b>: Usuarios externos o contratistas</li>
+            <li> <b>YTG</b>: Usuarios externos o contratistas.</li>
           </div>
 
           <div className='cuadrotexto'>
@@ -54,7 +78,7 @@ function Home () {
 
           <div className='cuadrotexto'>
             <b>Habilitar dispotivo usb:</b>
-            <li>Se deberá ejecutar listdeviceinfo.exe. Al ejecutarlo mostrará la información del dispositivo, y se deberá guardar como archivo HTML con las siglas de usuario. Se derivará al área de seguridad de la información para su habilitación. No requiere vistos buenos.</li>
+            <li>Se deberá ejecutar listdeviceinfo.exe. Al ejecutarlo mostrará la información del dispositivo en el navegador predeterminado, y se deberá guardar como archivo HTML con las siglas de usuario. Se derivará al área de seguridad de la información para su habilitación. No requiere vistos buenos.</li>
           </div>
 
           <div className='cuadrotexto'>
@@ -215,8 +239,14 @@ function Home () {
             <li>Gerencia de TI, Gerencia del Área usuaria</li>
             <b>Aprobaciones requeridas para la asignación de un equipo informático menor:</b>
             <li>Aprobación de jefe inmediato</li>
-
           </div>
+
+           <div className="cuadrotexto">
+              <b>Aplicativo Gestión de proyectos</b>
+              <li>Para ingresar en este aplicativo se utilizarán credenciales de usuario SAP.--343749</li>
+           </div>
+
+          
 
         </div>
  

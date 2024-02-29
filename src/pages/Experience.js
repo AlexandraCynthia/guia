@@ -32,6 +32,20 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
+            Usuario solicita le habiliten URL por ejemplo SUNAT, le aparece bloqueo Forcepoint
+          </h3>
+               <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709178831/forcepoint_vm3kzz.png" alt="" height="auto" width="450px" /> </p>
+        <p>En ticket adjuntar el visto bueno del Sr. Landa.</p>
+          
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Telecomunicaciones"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
            Inconvenientes con Decodificador, canales de tv sin señal. 
           </h3>
 
@@ -271,7 +285,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Atención en nivel 2"
+          date="Atención en nivel 1 y 2"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -280,7 +294,7 @@ function Experience() {
           </h3>
          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499063/Guia/mobile_no_conecta_vm6gfa.png" alt="" height="auto" width="450px" /></p>
           <p>
-            Se deberá asociar el asset del celular en el ticket
+            Se deberá asociar el asset del celular en el ticket. Ver manual de conexión a red mobile en sección documentos.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
