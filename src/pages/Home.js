@@ -270,7 +270,7 @@ function Home () {
 
             <div className="cuadrotexto">
               <b>Realizar llamadas desde anexo:</b>
-              <li>Se deberá marcar de la siguiente forma: "0 + 951980XXX + código de seguridad del usuario(08 dígitos)"</li>
+              <li>Se deberá marcar de la siguiente forma: "0 + 951980XXX + código de autorización del usuario(08 dígitos)"</li>
             </div>
 
         </div>
