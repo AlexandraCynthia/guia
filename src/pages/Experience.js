@@ -15,13 +15,13 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="Derivar con Telecomunicaciones"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<WorkIcon />}git 
         >
           <h3 className="vertical-timeline-element-title">
             Bloqueos constantes de usuario de red
           </h3>
                <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499071/Guia/bloqueo_de_usuario_constante_xv5wdg.png" alt="" height="auto" width="450px" /> </p>
-        <p>En ticket colocar hostname, ip, captura de GPUPDATE /FORCE y capturas de borrado de contraseñas</p>
+        <p>En ticket colocar CAPTURAS de: hostname, ip, GPUPDATE /FORCE(administrador) y de borrado de contraseñas desde Panel de control y también navegadores.</p>
           
         </VerticalTimelineElement>
 
