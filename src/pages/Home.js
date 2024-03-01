@@ -143,7 +143,7 @@ function Home () {
               <b>Cuentas SAP</b>
               <li>Para atención de bloqueos, reseteos de usuarios SAP, derivar directamente al área de SAP.</li>
               <li>Usuarios SAP SGMM (CMgP): Derivar con wendy camarena wcamarena@tgp.com.pe.</li>
-              <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1707423322/Guia/FORMULARIO_CREACION_DE_CUENTA_SAP_vybt2q.docx"><b>formulario</b></a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno del Gerente Neptali Mayorga y derivar al área de SAP</li>
+              <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1707423322/Guia/FORMULARIO_CREACION_DE_CUENTA_SAP_vybt2q.docx"><b>formulario</b></a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno de Claudia Sarmiento y derivar al área de SAP</li>
             </div>
 
             <div className="cuadrotexto">
@@ -243,10 +243,32 @@ function Home () {
 
            <div className="cuadrotexto">
               <b>Aplicativo Gestión de proyectos</b>
-              <li>Para ingresar en este aplicativo se utilizarán credenciales de usuario SAP.--343749</li>
+              <li>Para ingresar en este aplicativo se utilizarán credenciales de usuario SAP.</li>
            </div>
 
-          
+           <div className="cuadrotexto">
+              <b>Si un usuario nos solicita instalar un anexo, se deberá primero consultar con Nelson Paz lo siguiente:</b>
+              <li>Marca del teléfono</li>
+              <li>Número de teléfono a asignar- Mac Address</li>
+              <li>Donde se conectará</li>
+              <li>Número de puerto / switch</li>
+              <li>Datos del usuario</li>
+           </div>
+
+           <div className="cuadrotexto">
+              <b>Solicitud de Back up. Para recuperar un backup se necesita 2 aprobaciones:</b>
+              <li>VB gerente area </li>
+              <li>VB neptali mayorga </li>
+              <li>Se derivará con Infraestructura</li>
+            </div>
+
+
+            <div className="cuadrotexto">
+              <b>Problemas con cámara de seguridad</b>
+              <li>Reportar inconveniente al correo jabregu@stefanini.com.pe.</li>
+            </div>
+
+
 
         </div>
  

@@ -145,7 +145,31 @@ function Experience() {
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499073/Guia/zoom_vkwsbd.png" height="auto" width="450px" alt="" /></p>
         </VerticalTimelineElement>
 
-        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Infraestructura"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Ticket para File Server 
+          </h3>
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709306133/Guia/file_server_lofnuf.png" height="auto" width="450px" alt="" /></p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Infraestructura"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Encintado de información de la ruta \\tgp.net\areas$\privado\imagenesgis\BASEMAP1
+           </h3>
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709306133/Guia/Encintado_de_infromacion_ymgi0m.png" height="auto" width="450px" alt="" /></p>
+        </VerticalTimelineElement>
+
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Derivar con Infraestructura"
@@ -158,6 +182,20 @@ function Experience() {
          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499059/Guia/grupo_de_correo_ufxlcq.png" alt="" height="auto" width="450px" /></p>
          
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Infraestructura"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+         Inconvenientes con certificado de Outlook expirado, no permite actualizarlo.          </h3>
+         <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709306740/Guia/certificado_outlook_ghxmky.png" alt="" height="auto" width="450px" /></p>
+         
+        </VerticalTimelineElement>
+
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Derivar con Infraestructura"
@@ -311,6 +349,20 @@ function Experience() {
             Se deberá asociar el asset del equipo en el ticket
           </p>
         </VerticalTimelineElement>
+
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Atención en nivel 2"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Traslado de equipos
+          </h3>
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709306895/traslado_de_equipos_q1q1cb.png" alt="" height="auto" width="450px" /></p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Atención en nivel 2"
