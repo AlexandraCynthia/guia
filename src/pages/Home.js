@@ -268,7 +268,10 @@ function Home () {
               <li>Reportar inconveniente al correo jabregu@stefanini.com.pe.</li>
             </div>
 
-
+            <div className="cuadrotexto">
+              <b>Realizar llamadas desde anexo:</b>
+              <li>Se deberá marcar de la siguiente forma: "0 + 951980XXX + código de seguridad del usuario(08 dígitos)"</li>
+            </div>
 
         </div>
  

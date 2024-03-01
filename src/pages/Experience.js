@@ -46,6 +46,20 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
+            Usuario indica que código de seguridad para hacer llamadas desde anexo no está actualizada, debe tener 08 dígitos. Derivar al Staff de Telecomunicaciones, dependiendo de qué zona es el usuario.
+          </h3>
+               <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709313566/Guia/codigo_seguridad_llamada_nyoziq.png" alt="" height="auto" width="450px" /> </p>
+     
+        </VerticalTimelineElement>
+
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Telecomunicaciones"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
            Inconvenientes con Decodificador, canales de tv sin señal. 
           </h3>
 
