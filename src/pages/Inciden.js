@@ -57,16 +57,23 @@ const Inciden = () => {
           <div style={containerStyles}>
             <ImageSlider slides={slides1} />
           </div>
-          <ol class="texto">
-            <li>Ingresar en Opciones de Outlook</li>
-            <li>Sección complementos</li>
-            <li>Verificar que el check de Teams esté activo</li>
-            <li>Verificar elementos deshabilitados, si ahí aparece Teams,</li> 
-            <li>dar click en habilitar</li>
-            <li>Verificar si hay actualizaciones pendientes.</li>
-            <li>Si lo anterior está correcto, cerrar Teams, también Outlook y validar.</li>
-            <li>Si las anteriores opciones no tienen éxito, reinstalar Teams.</li>
-          </ol>
+
+        <div className='skills1'> 
+          <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Ingresar en Opciones de Outlook</li>
+                  <li>Sección complementos</li>
+                  <li>Verificar que el check de Teams esté activo</li>
+                  <li>Verificar elementos deshabilitados, si ahí aparece Teams,</li> 
+                  <li>dar click en habilitar</li>
+                  <li>Verificar si hay actualizaciones pendientes.</li>
+                  <li>Si lo anterior está correcto, cerrar Teams, también Outlook y validar.</li>
+                  <li>Si las anteriores opciones no tienen éxito, reinstalar Teams.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
         </div>  
 
         <div>
@@ -74,27 +81,41 @@ const Inciden = () => {
           <div style={containerStyles}>
             <ImageSlider slides={slides2} />
           </div>
-          <ol class="texto">
-            <li>Ingresar en Configuración - Sistema - Sonido. Verificar que en la opción "Probar el micrófono" esté detectando el micro.</li>
-            <li>Ingresar en opción Sonido y validar que el mismo micrófono se esté detectando tanto en entrada como salida.</li>
-            <li>Ingresar en Sonidos</li>
-            <li>Validar en la sección "grabar" que micrófono está conectado, luego dar click en propiedades,</li>
-            <li>Verificar nivel de volumen del micrófono.</li>
-            <li>Abrir configuración del sonido</li>
-            <li>Verificar que dispositivo de salida está seleccionado por el sistema. Ingresar en Configuración de privacidad del micrófono,</li>
-            <li>y verificar que esté activo para Teams.</li>
-          </ol>
-         </div>
+
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                  <ol class="texto">
+                    <li>Ingresar en Configuración - Sistema - Sonido. Verificar que en la opción "Probar el micrófono" esté detectando el micro.</li>
+                    <li>Ingresar en opción Sonido y validar que el mismo micrófono se esté detectando tanto en entrada como salida.</li>
+                    <li>Ingresar en Sonidos</li>
+                    <li>Validar en la sección "grabar" que micrófono está conectado, luego dar click en propiedades,</li>
+                    <li>Verificar nivel de volumen del micrófono.</li>
+                    <li>Abrir configuración del sonido</li>
+                    <li>Verificar que dispositivo de salida está seleccionado por el sistema. Ingresar en Configuración de privacidad del micrófono,</li>
+                    <li>y verificar que esté activo para Teams.</li>
+                  </ol>
+              </div>
+            </div>
+          </div> 
+        </div>
+        
 
         <div>
           <h1>Carpeta compartida no conecta a pesar de tener permisos</h1>
           <div style={containerStyles}>
             <ImageSlider slides={slides3} />
           </div>
-          <ol class="texto">
-            <li>Se verifica mensaje de error de red, incluso después de haber reiniciado.</li>
-            <li>Ejecutar en <b>modo administrador</b>: <i>ipconfig /flushdns</i> y también <i>ipconfig/registerdns</i>, luego reiniciar.</li>
-          </ol>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                  <ol class="texto">
+                    <li>Se verifica mensaje de error de red, incluso después de haber reiniciado.</li>
+                    <li>Ejecutar en <b>modo administrador</b>: <i>ipconfig /flushdns</i> y también <i>ipconfig/registerdns</i>, luego reiniciar.</li>
+                  </ol>
+              </div>
+           </div> 
+         </div>   
         </div>
 
         <div>
@@ -102,14 +123,20 @@ const Inciden = () => {
           <div style={containerStyles}>
             <ImageSlider slides={slides4} />
           </div>
-          <ol class="texto">
-            <li>Se verifica icono de Outlook u otro aplicativo de color blanco en barra de tareas.</li>
-            <li>Para corregirlo ingresar en ejecutar y colocar: %appdata%</li>
-            <li>Al ingresar en la ruta AppData/Local, y seleccionamos "iconCache" y se deberán presionar las teclas: <i>shift(bloq fn)+spr.</i>  </li>
-            <li>Al realizarlo, saldrá una ventana y damos click en "si".</li>
-            <li>Luego abrimos administrador de tareas, seleccionamos <i>"explorer.exe"</i> y <i>"Finalizar tarea"</i></li>
-            <li>Luego, en el mismo administrador de tareas, dar click en <i>"Ejecutar nueva tarea"</i> y escribir <i>"Explorer"</i></li>
-            </ol>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Se verifica icono de Outlook u otro aplicativo de color blanco en barra de tareas.</li>
+                  <li>Para corregirlo ingresar en ejecutar y colocar: %appdata%</li>
+                  <li>Al ingresar en la ruta AppData/Local, y seleccionamos "iconCache" y se deberán presionar las teclas: <i>shift(bloq fn)+spr.</i>  </li>
+                  <li>Al realizarlo, saldrá una ventana y damos click en "si".</li>
+                  <li>Luego abrimos administrador de tareas, seleccionamos <i>"explorer.exe"</i> y <i>"Finalizar tarea"</i></li>
+                  <li>Luego, en el mismo administrador de tareas, dar click en <i>"Ejecutar nueva tarea"</i> y escribir <i>"Explorer"</i></li>
+                  </ol>
+              </div> 
+            </div>   
+          </div>
         </div>
 
         
@@ -118,10 +145,16 @@ const Inciden = () => {
           <div style={containerStyles}>
             <ImageSlider slides={slides5} />
           </div>
-          <ol class="texto">
-            <li>Solución: Solicitar al usuario abrir CMD y que escriba ipconfig y nos dicte la ip que debe iniciar con <b>172.30...</b></li>
-            <li>Luego con esa ip, nos conectamos a nuestro Teamviewer, y usamos la contraseña que le aparece al usuario en su aplicativo de Teamviewer.</li>
-            </ol>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Solución: Solicitar al usuario abrir CMD y que escriba ipconfig y nos dicte la ip que debe iniciar con <b>172.30...</b></li>
+                  <li>Luego con esa ip, nos conectamos a nuestro Teamviewer, y usamos la contraseña que le aparece al usuario en su aplicativo de Teamviewer.</li>
+                </ol>
+              </div>   
+            </div>
+          </div>
         </div>
 
 
