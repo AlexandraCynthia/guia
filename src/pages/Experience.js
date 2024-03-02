@@ -39,6 +39,21 @@ function Experience() {
           
         </VerticalTimelineElement>
 
+ <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Telecomunicaciones"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Inconvenientes con anexo
+          </h3>
+               <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709390001/Guia/probelmas_anexo_f2bay7.png" alt="" height="auto" width="450px" /> </p>
+        <p>Derivar a Telecom Staff de acuerdo al encargado de cada zona</p>
+          
+        </VerticalTimelineElement>
+
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Derivar con Telecomunicaciones"
