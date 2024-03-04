@@ -256,9 +256,9 @@ function Home () {
            </div>
 
            <div className="cuadrotexto">
-              <b>Solicitud de Back up. Para recuperar un backup se necesita 2 aprobaciones:</b>
-              <li>VB gerente area </li>
-              <li>VB neptali mayorga </li>
+              <b>Solicitud de Back up. Para recuperar un backup se necesitan 2 aprobaciones:</b>
+              <li>VB gerente área </li>
+              <li>VB Neptali Mayorga (Gerente de área de tecnología de la información) </li>
               <li>Se derivará con Infraestructura</li>
             </div>
 
@@ -270,7 +270,7 @@ function Home () {
 
             <div className="cuadrotexto">
               <b>Realizar llamadas desde anexo:</b>
-              <li>Se deberá marcar de la siguiente forma: "0 + 951980XXX + código de autorización del usuario(08 dígitos)"</li>
+              <li>Se deberá marcar de la siguiente forma: "0 + 951980XXX + código de autorización del usuario(08 dígitos)".</li>
             </div>
 
         </div>
