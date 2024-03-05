@@ -274,6 +274,11 @@ function Home () {
               <li>Se deberá marcar de la siguiente forma: "0 + 951980XXX + código de autorización del usuario(08 dígitos)".</li>
             </div>
 
+            <div className="cuadrotexto">
+              <b>Instalar Oil Map</b>
+              <li>Instalador ubicado en carpeta compartida Geti. Es una extensión del ArcGis.</li>
+            </div>
+
         </div>
  
       </div>
