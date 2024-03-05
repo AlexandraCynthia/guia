@@ -121,6 +121,7 @@ function Home () {
          <div className="cuadrotexto">
           <b>Habilitar carpetas compartidas:</b>
           <li>En usuarios TGA, lo deberá solicitar el jefe inmediato por correo al service desk. Para usuarios YTG, lo deberá solicitar el responsable TGP y Gerente del área.</li>
+          <li>Para el ticket indicar: Ruta de carpeta compartida y el tipo de acceso si es lectura/escritura o ambos.</li>
          </div>
 
           <div className="cuadrotexto">

@@ -49,7 +49,7 @@ function Experience() {
             Inconvenientes con anexo
           </h3>
                <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709390001/Guia/probelmas_anexo_f2bay7.png" alt="" height="auto" width="450px" /> </p>
-        <p>Derivar a Telecom Staff de acuerdo al encargado de cada zona</p>
+        <p>Derivar a Telecom Staff de acuerdo al encargado de cada zona. Para Pisco, derivar a Emerson Durand, para Ayacucho, PS3, PS4, Chiquintirca con Luis Salazar, para PS1, PS2, KP127 y Kiteni, con Alberto Ruiz.</p>
           
         </VerticalTimelineElement>
 
