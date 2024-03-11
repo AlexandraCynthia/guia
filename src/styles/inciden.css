@@ -54,3 +54,224 @@ h1{
     padding-right: 5%;
   }
   
+
+@media only screen and (max-width:575px){
+  h1{
+    font-size: 18px;
+    text-align: center;
+    padding-right: 7%;
+}
+
+.texto{
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+.skills1 {
+    font-size: 10px;
+    width: 80%;
+    justify-content: left;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .general1{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 2%;
+    margin-top: 1%;
+    margin-left: 5px;
+  
+  }
+
+  .cuadrotexto1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    line-height: 1.5;
+    border-radius: 5px;
+    color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 10x;
+    margin-left: 4px;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+  }
+
+  .carrousel{
+    width: 80%;
+    height: 20px;
+  }
+  
+}
+@media (min-width: 576px) and (max-width: 768px){
+  h1{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 7%;
+}
+
+.texto{
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+.skills1 {
+    font-size: 18px;
+    width: 100%;
+    justify-content: left;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .general1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 2%;
+    margin-top: 1%;
+    margin-left: 5px;
+  
+  }
+
+  .cuadrotexto1{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: auto;
+    line-height: 1.5;
+    border-radius: 5px;
+    color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20x;
+    margin-left: 4px;
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: justify;
+  }
+
+}
+@media (min-width: 769px) and (max-width: 991px){
+  h1{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 7%;
+}
+
+.texto{
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+.skills1 {
+    font-size: 18px;
+    width: 100%;
+    justify-content: left;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .general1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 2%;
+    margin-top: 1%;
+    margin-left: 5px;
+  
+  }
+
+  .cuadrotexto1{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    line-height: 1.5;
+    border-radius: 5px;
+    color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20x;
+    margin-left: 4px;
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: justify;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  h1{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 7%;
+}
+
+.texto{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+}
+
+.skills1 {
+    font-size: 18px;
+    width: 100%;
+    justify-content: left;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .general1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 2%;
+    margin-top: 1%;
+    margin-left: 5px;
+  
+  }
+
+  .cuadrotexto1{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    line-height: 1.5;
+    border-radius: 5px;
+    color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20x;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 25px;
+    text-align: justify;
+  }
+}

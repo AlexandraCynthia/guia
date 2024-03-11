@@ -54,7 +54,7 @@ const Inciden = () => {
     <div>
         <div>
           <h1>Problema outlook, al generar reunión no genera URL de Teams</h1>
-          <div style={containerStyles}>
+          <div class="carrousel" style={containerStyles}>
             <ImageSlider slides={slides1} />
           </div>
 

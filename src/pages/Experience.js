@@ -20,7 +20,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Bloqueos constantes de usuario de red
           </h3>
-               <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499071/Guia/bloqueo_de_usuario_constante_xv5wdg.png" alt="" height="auto" width="450px" /> </p>
+               <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499071/Guia/bloqueo_de_usuario_constante_xv5wdg.png" alt="" height="auto" width="450px"/> </p>
         <p>En ticket colocar CAPTURAS de: hostname, ip, GPUPDATE /FORCE(administrador) y de borrado de contraseñas desde Panel de control y también navegadores.</p>
           
         </VerticalTimelineElement>
@@ -173,6 +173,22 @@ function Experience() {
           <p> Si es una página distinta si debe pasar primero por aprobación de E. Landa y luego recién derivar a Telecom.</p>
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1704499073/Guia/zoom_vkwsbd.png" height="auto" width="450px" alt="" /></p>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Derivar con Infraestructura"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Ampliar vigencia de usuario de red 
+          </h3>
+          <p> Para solicitar ampliar la cuenta de un usuario externo, lo puede pedir cualquier usuario de TGP.</p>
+          <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1710178170/Guia/caducidad_de_cuenta_lgdaod.png" height="auto" width="450px" alt="" /></p>
+        </VerticalTimelineElement>
+
+
+
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
