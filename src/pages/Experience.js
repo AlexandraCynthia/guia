@@ -56,12 +56,12 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Derivar con Telecomunicaciones"
+          date="Derivar al Staff de Telecomunicaciones, dependiendo de qué zona es el usuario."
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Usuario indica que código de seguridad para hacer llamadas desde anexo no está actualizada, debe tener 08 dígitos. Derivar al Staff de Telecomunicaciones, dependiendo de qué zona es el usuario.
+            Código de seguridad de anexo no actualizada (debe tener 08 dígitos). 
           </h3>
                <p> <img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1709313566/Guia/codigo_seguridad_llamada_nyoziq.png" alt="" height="auto" width="450px" /> </p>
      
@@ -123,12 +123,12 @@ function Experience() {
         
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Derivar con Telecomunicaciones con Paz Nelson"
+          date="Derivar con Telecomunicaciones con Paz Nelson. Ya que este ticket se derivará al encargado del área, deberá colocarse Telecom Staff. Para Pisco, derivar a Emerson Durand, para Ayacucho, PS3, PS4, Chiquintirca con Luis Salazar, para PS1, PS2, KP127 y Kiteni, con Alberto Ruiz."
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Solicitar asignación de chip y equipo en Otp. Ya que este ticket lo atenderá Paz Nelson (derivado a una persona, no área), deberá colocarse Telecom Staff. Para Pisco, derivar a Emerson Durand, para Ayacucho, PS3, PS4, Chiquintirca con Luis Salazar, para PS1, PS2, KP127 y Kiteni, con Alberto Ruiz.
+            Solicitar asignación de chip y celular en Otp. 
           </h3>
           <p><img src="https://res.cloudinary.com/dgxnatqij/image/upload/v1707926469/Guia/telecom_nbixjm.png" alt="" height="auto" width="450px"/></p> 
          
