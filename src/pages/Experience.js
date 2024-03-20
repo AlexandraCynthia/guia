@@ -351,10 +351,10 @@ function Experience() {
   return (
     <div className="experience">
       <SearchInput
-        className="search-input"
+        className="search-input1"
         onChange={handleChange}
         placeholder="Buscar..."
-        style={{width:'15%', height:'50%', backgroundColor:'#FFFDCB', padding: '10px'}}
+        style={{width:'15%', backgroundColor:'#FFFDCB', padding: '15px', margin: '10px'}}
       />
       {/* Renderizar los elementos filtrados */}
       {renderFilteredElements()}

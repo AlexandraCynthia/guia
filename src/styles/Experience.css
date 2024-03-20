@@ -7,13 +7,11 @@
 }
 
 
-.search-input{
-    display: flex;
-    justify-content: end;
+.search-input1{
     padding-right: 5%;
     padding-top:2.5%;
-    height: 50% !important;
-    margin-left: 10%;
+    margin-left: 40%;
+    width: 100%;
 }
 
 @media only screen and (max-width:575px){
