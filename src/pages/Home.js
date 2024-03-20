@@ -45,7 +45,7 @@ function Home () {
         
         const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').split(' ').filter(Boolean).join('|')})`, 'gi');
         // Reemplazar el término de búsqueda con un span con estilos de resaltado
-        let highlightedText = text.replace(regex, (match) => `<span style="background-color: #EADFB4">${match}</span>`);
+        let highlightedText = text.replace(regex, (match) => `<span style="background-color: #FAE7F3">${match}</span>`);
 
         if (highlightedText === text) {
           return "No se encontró la palabra";
@@ -87,7 +87,7 @@ function Home () {
         <br />
 
         <div className='skills'> 
-        <SearchInput className='search-input' style={{backgroundColor:'#FFFDCB', padding: '10px'}} placeholder='Buscar...' onChange={handleSearch} />
+        <SearchInput className='search-input' style={{backgroundColor:'#FAE7F3', padding: '10px'}} placeholder='Buscar...' onChange={handleSearch} />
         {[...new Set(filteredContent)].map((cuadro, index) => (
           <div className='cuadrotexto3' key={index} dangerouslySetInnerHTML={{ __html: highlightSearchTerm(cuadro.innerHTML) }} />
         ))}
