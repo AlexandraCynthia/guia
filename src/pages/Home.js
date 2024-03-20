@@ -58,13 +58,12 @@ function Home () {
           if (openingTag) {
             // Si el match es una etiqueta <a>, devolverla sin cambios
             return match;
-          } else if (url) {
+          } else if (url && url.includes("tgp.net")) {
             // Si el match es una URL que inicia con "tgp.net", devolver solo el texto visible del enlace
-            return `<a href="${url}" target="_blank"><span style="background-color: yellow">Enlace</span></a>`;
+            return `<a href="${url}" target="_blank">${url}</a>`;
           } else {
              // Si el match no es una etiqueta <a> ni una URL, realizar el resaltado de la palabra buscada
-             return content.replace(regex, (match) => `<span style="background-color: yellow">${match}</span>`);
-          }    
+             return content.replace(regex, (match) => `<span style="background-color: yellow">${match}</span>`);          }    
 
         });
       };
@@ -88,7 +87,7 @@ function Home () {
         <br />
 
         <div className='skills'> 
-        <SearchInput className='search-input' style={{width:'100%', height:'250%', backgroundColor:'#FFFDCB'}} placeholder='Buscar...' onChange={handleSearch} />
+        <SearchInput className='search-input' style={{width:'100%', height:'250%', backgroundColor:'#FFFDCB', padding: '10px'}} placeholder='Buscar...' onChange={handleSearch} />
         {[...new Set(filteredContent)].map((cuadro, index) => (
           <div className='cuadrotexto' key={index} dangerouslySetInnerHTML={{ __html: highlightSearchTerm(cuadro.innerHTML) }} style={{ color: '#008170' }} />
         ))}
@@ -127,10 +126,10 @@ function Home () {
 
             <div className='cuadrotexto'>
               <b>Aplicativos utilizados en N1:</b>
-              <li><b><a href="https://tlurwhd01.tgp.net:8443/" target="_blank">WebHelpdesk</a></b>: Para la creación de tickets/ información del usuario/ assets/ FAQ'S /otros</li>
-              <li><b><a href="http://tlimiispr01.tgp.net/HDOCenter/Aspx/Comun/Principal.aspx" target="_blank">HDO</a></b>: Consultar cuenta de red/ desbloquear/ resetear</li>
-              <li><b><a href="https://tlimapp01.tgp.net:7004/IMS-AA-IDP/InitialLogonDispatch.do" target="_blank">RSA</a></b>: Consultar usuario VPN/ desbloqueo/ reseteo PIN/ descargar semilla/ resincronización token</li>
-              <li><b><a href="https://172.30.2.71:8443/sponsorportal/PortalSetup.action?portal=2f354d70-c905-11e5-aa44-000c29b38d87" target="_blank">Portal cautivo - Cisco</a></b>: Para la generación de cuentas guest en red de invitados</li>
+              <li><b><a href="https://cutt.ly/sw2m3eWm" target="_blank">WebHelpdesk</a></b>: Para la creación de tickets/ información del usuario/ assets/ FAQ'S /otros</li>
+              <li><b><a href="https://cutt.ly/Xw2m99WG" target="_blank">HDO</a></b>: Consultar cuenta de red/ desbloquear/ resetear</li>
+              <li><b><a href="https://cutt.ly/3w2m9XnS" target="_blank">RSA</a></b>: Consultar usuario VPN/ desbloqueo/ reseteo PIN/ descargar semilla/ resincronización token</li>
+              <li><b><a href="https://cutt.ly/Ew2m9D6o" target="_blank">Portal cautivo - Cisco</a></b>: Para la generación de cuentas guest en red de invitados</li>
             </div>
 
 
@@ -155,15 +154,15 @@ function Home () {
             <div className='cuadrotexto'>
               <b>Crear nuevo usuario contratista:</b>
               <li>Se requiere la aprobación de Ivone Jara (Infraestructura) y Gianmarco Ordoñez (recursos humanos).</li>
-              <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://tluriam01.tgp.net:8443/aveksa/main?ReqType=Dialog&PageID=RequestFormWizard&BreadcrumbLevel=0&Action=New&CRButton=77&formToken=L0X9pDFacTaR%7B7ZBM5V4qLSVBtb6&includeTerminated=true" target='_blank'><b>enlace</b></a> para solicitar la creación de nuevo usuario contratista.</li>
+              <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://cutt.ly/nw2m9v2m" target='_blank'><b>enlace</b></a> para solicitar la creación de nuevo usuario contratista.</li>
               </div>
 
 
             <div className='cuadrotexto'>
               <b>Crear nuevo usuario VPN contratista:</b>
-              <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://tgpweb.sharepoint.com/sites/GETI/sis/doc/vpn/Paginas/Home.aspx" target='_blank'><b>enlace</b></a> para solicitar la creación de usuario VPN contratista.</li>
+              <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://cutt.ly/Vw2m214M" target='_blank'><b>enlace</b></a> para solicitar la creación de usuario VPN contratista.</li>
               <li>Una vez generado el usuario VPN (con aprobación de Ivone Jara), se generará ticket a Telecomunicaciones para la respectiva habilitación en el Firewall.</li> 
-              <li>Para esto se deberá adjuntar en el ticket, el documento de excel detallando los accesos que este usuario necesitará <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708145464/Plantilla_de_configuraci%C3%B3n_usuario_VPN_client_to_site_qxvicd.xlsx" target='_blank'><b>[descargar]</b></a>.</li>
+              <li>Para esto se deberá adjuntar en el ticket, el documento de excel detallando los accesos que este usuario necesitará <a href="https://cutt.ly/tw2m2JAD" target='_blank'><b>[descargar]</b></a>.</li>
               <li>Una vez que Telecomunicaciones habilite al usuario en Firewall, nos comunicamos con el usuario para configurar checkpoint y RSA en su equipo.</li>
             </div> 
 
@@ -197,7 +196,7 @@ function Home () {
 
             <div className="cuadrotexto">
               <b>PIN de impresión:</b>
-              <li>En este <a href="http://tluriispr01.tgp.net/osv/frmConsultaPINimpresion.aspx" target="_blank"><b>enlace</b></a> se puede validar PIN de impresión.</li>
+              <li>En este <a href="https://cutt.ly/kw2m2ulR" target="_blank"><b>enlace</b></a> se puede validar PIN de impresión.</li>
             </div>
 
             <div className="cuadrotexto">
@@ -215,7 +214,7 @@ function Home () {
                 <b>Cuentas SAP</b>
                 <li>Para atención de bloqueos, reseteos de usuarios SAP, derivar directamente al área de SAP.</li>
                 <li>Usuarios SAP SGMM (CMgP): Derivar con wendy camarena wcamarena@tgp.com.pe.</li>
-                <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1707423322/Guia/FORMULARIO_CREACION_DE_CUENTA_SAP_vybt2q.docx"><b>formulario</b></a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno de Claudia Sarmiento y derivar al área de SAP</li>
+                <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://cutt.ly/Sw2m39DJ"><b>formulario</b></a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno de Claudia Sarmiento y derivar al área de SAP</li>
             </div>
 
             <div className="cuadrotexto">
@@ -274,9 +273,9 @@ function Home () {
 
             <div className="cuadrotexto">
               <b>Proxy TGP</b>
-              <li><b>Actual </b>http://tlurnet01.tgp.net/proxy.pac</li>
-              <li><b>Antiguo </b>http://tlurpx01.tgp.net/accelerated_pac_base.pac</li>
-              <li>Se deberá forzar políticas en caso no se encuentre configurado con nuevo proxy.</li>
+              <li>Actual http://tlurnet01.tgp.net/prox y.pac</li>
+              <li>Antiguo http://tlurpx01.tgp.net/accelerated_pac_base.pac</li>
+              <li> Se deberá forzar políticas en caso no se encuentre configurado con nuevo proxy.</li>
             </div>
 
             <div className="cuadrotexto">
