@@ -110,6 +110,13 @@ function Experience() {
   },  
   
   {
+    date:"Derivar con Telecomunicaciones",
+    title: "Usuario no puede conectarse a TGP_WLAN",
+    image: "https://res.cloudinary.com/dgxnatqij/image/upload/v1710971217/Guia/Noconexiona_Tgpwlan_vsavzl.png",
+    description: "Adjuntar descartes realizados en el ticket: Ej: Actualización de políticas, cambio de contraseña de red, olvidar red y volver a conectar, etc."
+  },  
+
+  {
   date:"Derivar con Telecomunicaciones",
   title:"Inconvenientes con anexo",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1709390001/Guia/probelmas_anexo_f2bay7.png",
