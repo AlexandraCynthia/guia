@@ -19,7 +19,7 @@ function Experience() {
   const highlightSearchTerm = (text) => {
     if (!searchTerm.trim()) return text;
     const regex = new RegExp(searchTerm, 'gi');
-    return text.replace(regex, (match) => `<mark style="background-color: pink;">${match}</mark>`);
+    return text.replace(regex, (match) => `<mark style="background-color: #F9E897;">${match}</mark>`);
   };
 
   // Función para renderizar los elementos de la línea de tiempo filtrados y con la palabra buscada resaltada

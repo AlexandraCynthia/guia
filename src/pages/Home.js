@@ -45,7 +45,7 @@ function Home () {
         
         const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').split(' ').filter(Boolean).join('|')})`, 'gi');
         // Reemplazar el término de búsqueda con un span con estilos de resaltado
-        let highlightedText = text.replace(regex, (match) => `<span style="background-color: #FAE7F3">${match}</span>`);
+        let highlightedText = text.replace(regex, (match) => `<span style="background-color: #F9E897">${match}</span>`);
 
         if (highlightedText === text) {
           return "No se encontró la palabra";
