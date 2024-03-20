@@ -297,7 +297,13 @@ function Experience() {
   title:"Colocar/ retirar disco duro externo",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1704499051/Guia/retirar_colocar_disco_p1agog.png",
   description:""
-  },      
+  },  
+  {
+  date:"Atención en nivel 2",
+  title:"Entrega de equipo/celular",
+  image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1710953978/Guia/entregaequipo_qzhscc.png",
+  description:"Cuando el área de Telecomunicaciones solicita entregar equipo celular al usuario."
+  },     
   {
   date:"Derivar con seguridad de la información",
   title:"Claroty",
