@@ -79,6 +79,12 @@
   padding-right: 4%;
 }
 
+.cuadrotexto3{
+  color: blue !important;
+  width: 50% !important;
+}
+
+
 .general{
   width: 50%;
   height: auto;
@@ -102,6 +108,9 @@ a {
   padding-left: 45%;
 
 }
+
+
+
 
 @media only screen and (max-width:575px){
   .about {
@@ -181,6 +190,16 @@ a {
   padding-right: 25px;
   font-size: 10px;
 }
+
+.cuadrotexto3{
+  width: 280px !important;
+  color: blueviolet !important;
+  margin-left: 400px !important;
+  padding: 20px !important;
+  text-align: justify;
+  font-size: 10px !important;
+}
+
 
 .general{
   width: 5%;
@@ -281,6 +300,15 @@ a {
   padding-left:25px;
   padding-right: 25px;
   font-size: 15px;
+}
+
+.cuadrotexto3{
+  width: 600px !important;
+  color: blueviolet !important;
+  margin-left: 760px !important;
+  padding: 10px !important;
+  text-align: justify;
+  font-size: 15px !important;
 }
 
 .general{
@@ -384,6 +412,15 @@ a {
   font-size: 25px;
 }
 
+.cuadrotexto3{
+  width: 630px !important;
+  color: blueviolet !important;
+  margin-left: 850px !important;
+  padding: 10px !important;
+  text-align: justify;
+  font-size: 18px !important;
+}
+
 .general{
   width: 15%;
   height: auto;
@@ -485,6 +522,16 @@ a {
   font-size: 15px;
 }
 
+.cuadrotexto3{
+  width: 650px !important;
+  color: blueviolet !important;
+  margin-left: 850px !important;
+  padding: 10px !important;
+  text-align: justify;
+  font-size: 14px !important;
+}
+
+
 .general{
   width: 15%;
   height: auto;
@@ -584,6 +631,15 @@ a {
   padding-left:25px;
   padding-right: 25px;
   font-size: 15px;
+}
+
+.cuadrotexto3{
+  width: 800px !important;
+  color: blueviolet !important;
+  margin-left: 1000px !important;
+  padding: 10px !important;
+  text-align: justify;
+  font-size: 14px !important;
 }
 
 .general{

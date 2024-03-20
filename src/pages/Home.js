@@ -89,7 +89,7 @@ function Home () {
         <div className='skills'> 
         <SearchInput className='search-input' style={{backgroundColor:'#FFFDCB', padding: '10px'}} placeholder='Buscar...' onChange={handleSearch} />
         {[...new Set(filteredContent)].map((cuadro, index) => (
-          <div className='cuadrotexto' key={index} dangerouslySetInnerHTML={{ __html: highlightSearchTerm(cuadro.innerHTML) }} style={{ color: '#008170' }} />
+          <div className='cuadrotexto3' key={index} dangerouslySetInnerHTML={{ __html: highlightSearchTerm(cuadro.innerHTML) }} />
         ))}
 
 

@@ -11,7 +11,7 @@
     padding-right: 5%;
     padding-top:2.5%;
     margin-left: 40%;
-    width: 100%;
+    width: 120%;
 }
 
 @media only screen and (max-width:575px){
@@ -19,7 +19,32 @@
         width: 50%;
         height: auto;
     }
+    .search-input1{
+        padding-right: 5%;
+        padding-top:2.5%;
+        margin-left: 35%;
+        width: 200%;
+    }
+
+
+
 }
-@media (min-width: 576px) and (max-width: 768px){}
-@media (min-width: 769px) and (max-width: 991px){}
+@media (min-width: 576px) and (max-width: 768px){
+    .search-input1{
+        padding-right: 5%;
+        padding-top:2.5%;
+        margin-left: 35%;
+        width: 250%;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 991px){
+
+    .search-input1{
+        padding-right: 5%;
+        padding-top:2.5%;
+        margin-left: 35%;
+        width: 250%;
+    }
+}
 @media (min-width: 992px) and (max-width: 1199px){}
