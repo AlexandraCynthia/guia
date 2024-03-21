@@ -197,6 +197,7 @@ function Home () {
             <div className="cuadrotexto">
               <b>PIN de impresión:</b>
               <li>En este <a href="https://cutt.ly/kw2m2ulR" target="_blank"><b>enlace</b></a> se puede validar PIN de impresión.</li>
+              <li>Ampliación de saldo de impresión: Ingresar en este <a href="https://cutt.ly/kw9e39kW" target="_blank"><b>enlace</b></a> y colocar usuario: solicitud; contraseña: solicitud. Ampliación mínima: 10 dólares; no es necesario ok de su jefe</li>
             </div>
 
             <div className="cuadrotexto">
