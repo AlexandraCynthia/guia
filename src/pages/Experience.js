@@ -149,20 +149,6 @@ function Experience() {
   },   
 
   {
-    date:"Derivar con Infraestructura",
-    title:"Listado de usuarios externos que figuran bajo responsabilidad de un usuario TGP",
-    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711044108/Guia/listadodeusuarios_ypjguk.png",
-    description:""
-  },
-
-  {
-    date:"Derivar con Infraestructura",
-    title:"Certificado ExpressWay",
-    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711046263/Guia/certificadoexpressway_o8kzaw.png",
-    description:""
-  },
-
-  {
   date:"Derivar con Telecomunicaciones",
   title:"Corte de internet en base",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1708620735/Guia/corte_de_red_athfht.png",
@@ -228,6 +214,15 @@ function Experience() {
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1704499053/Guia/lista_de_distribuc_abxegj.png",
   description:""
   },  
+
+
+  {
+    date:"Derivar con Infraestructura",
+    title:"Listado de usuarios externos que figuran bajo responsabilidad de un usuario TGP",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711044108/Guia/listadodeusuarios_ypjguk.png",
+    description:""
+  },
+
   {
   date:"Derivar con Infraestructura",
   title:"Administración de Office 365",
@@ -245,7 +240,16 @@ function Experience() {
   title:"Restauración de información",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1704499060/Guia/recuperar_back_up_xllo1i.png",
   description:"Se requiere para restauración de carpetas, backups de pst, backups de equipos, etc."
-  },                        
+  },                 
+  
+  {
+    date:"Derivar con Infraestructura",
+    title:"Certificado ExpressWay",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711046263/Guia/certificadoexpressway_o8kzaw.png",
+    description:""
+  },
+
+
   {
   date:"Atención en nivel 1",
   title:"Instalación de cola de impresión",
