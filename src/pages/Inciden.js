@@ -41,13 +41,26 @@ const Inciden = () => {
 
   ];
 
-  const slides5 = [
+    const slides5 = [
     { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1708703568/Guia/teamviewer_oeicwz.png" }
   ];
 
+  const slides6= [
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711045453/Guia/estadosdeusuariosenoutlok_uxrq5f.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711045455/Guia/estadosdeusuarioenoutlook2_ksmaaw.png"},
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711045454/Guia/estadosdeusuarioenoutllok3_n3mtn5.png"},
+
+  ];
+
+  const slides7= [
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711046083/Guia/iconos_separados_xvutok.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711045866/Guia/iconosespaciadoscorreccion_zyac8s.png" },
+  
+  ];
+
   const containerStyles = {
-    width: "55%",
-    height: "400px",
+    width: "45%",
+    height: "300px",
     margin: "0 auto",
   };
   return (
@@ -157,7 +170,40 @@ const Inciden = () => {
           </div>
         </div>
 
+        <div>
+          <h1>Outlook no muestra estado de contactos en Teams</h1>
+          <div style={containerStyles}>
+            <ImageSlider slides={slides6} />
+          </div>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Solución: Verificar en Outlook que esté habilitada la opción de "mostrar fotografía de usuario..."</li>
+                  <li>En teams ingresar en configuración.</li>
+                  <li>En sección general, habilitar el check de "registrar el nuevo Teams como aplicación de chat..."</li>
+                  <li>Si estas opciones no resultan, realizar reparación de Office.</li>
+                </ol>
+              </div>   
+            </div>
+          </div>
+        </div>
 
+        <div>
+          <h1>Iconos de escritorio muy separados</h1>
+          <div style={containerStyles}>
+            <ImageSlider slides={slides7} />
+          </div>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Ingresar en Regedit y colocar los parámetros seleccionados.</li>
+                </ol>
+              </div>   
+            </div>
+          </div>
+        </div>
 
     </div>
 

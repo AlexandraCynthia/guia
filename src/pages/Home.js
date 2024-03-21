@@ -327,7 +327,7 @@ function Home () {
             </div>
 
             <div className="cuadrotexto">
-                <b>Solicitud de Back up. Para recuperar un backup se necesitan 2 aprobaciones:</b>
+                <b>Solicitud de Restauración (backup) de usuarios que ya no laboran en TGP. Para recuperar un backup se necesitan 2 aprobaciones:</b>
                 <li>VB gerente área </li>
                 <li>VB Neptali Mayorga (Gerente de área de tecnología de la información) </li>
                 <li>Se derivará con Infraestructura</li>

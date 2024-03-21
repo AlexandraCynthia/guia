@@ -147,6 +147,21 @@ function Experience() {
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1704499073/Guia/zoom_vkwsbd.png",
   description:""
   },   
+
+  {
+    date:"Derivar con Infraestructura",
+    title:"Listado de usuarios externos que figuran bajo responsabilidad de un usuario TGP",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711044108/Guia/listadodeusuarios_ypjguk.png",
+    description:""
+  },
+
+  {
+    date:"Derivar con Infraestructura",
+    title:"Certificado ExpressWay",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711046263/Guia/certificadoexpressway_o8kzaw.png",
+    description:""
+  },
+
   {
   date:"Derivar con Telecomunicaciones",
   title:"Corte de internet en base",
