@@ -332,6 +332,7 @@ function Home () {
                 <li>VB gerente área </li>
                 <li>VB Neptali Mayorga (Gerente de área de tecnología de la información) </li>
                 <li>Se derivará con Infraestructura</li>
+                <li>Si el usuario está activo y solicita una restauración, derivar directamente con Infraestructura.</li>
               </div>
 
               <div className="cuadrotexto">
