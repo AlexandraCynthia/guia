@@ -12,63 +12,38 @@ function Home () {
   const[searchTerm, setSearchTerm] = useState("");
   const[filteredContent, setFilteredContent] = useState([]);
 
-  useEffect(()=>{
-
-    if(searchTerm.trim()!==""){
+  useEffect(() => {
+    if (searchTerm.trim() !== "") {
       filterContent();
-    }else{
+    } else {
       setFilteredContent([]);
-      }
-    }, [searchTerm]);
+    }
+  }, [searchTerm]);
 
-    const handleSearch = (term)=>{
-      setSearchTerm(term);
-    };
+  const handleSearch = (term) => {
+    setSearchTerm(normalizeText(term));
+  };
 
-    const filterContent =()=>{
-      const cuadros = document.querySelectorAll('.cuadrotexto');
-      const results = Array.from(cuadros).filter((cuadro)=>
-      cuadro.textContent.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, 
-      "").includes(searchTerm.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))
-      );
-        const uniqueResults = results.filter((cuadro,index,self)=>
-          index === self.findIndex((c)=>c.textContent===cuadro.textContent)
-        );
-        setFilteredContent(uniqueResults);
+  const normalizeText = (text) => {
+    return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  };
+
+  const filterContent = () => {
+    const cuadros = document.querySelectorAll('.cuadrotexto');
+    const results = Array.from(cuadros).filter((cuadro) =>
+      normalizeText(cuadro.textContent).includes(normalizeText(searchTerm))
+    );
+    setFilteredContent(results);
+  };
+
+  const highlightSearchTerm = (text) => {
+    if (searchTerm.trim() === "") {
+      return text;
     }
 
-      const highlightSearchTerm=(text)=>{
-        if (searchTerm.trim()===""){
-          return text
-        }
-        
-        
-        const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').split(' ').filter(Boolean).join('|')})`, 'gi');
-        // Reemplazar el término de búsqueda con un span con estilos de resaltado
-        let highlightedText = text.replace(regex, (match) => `<span style="background-color: #F9E897">${match}</span>`);
-
-        if (highlightedText === text) {
-          return "No se encontró la palabra";
-        }
-
-        // Reemplazar el término de búsqueda con un span con estilos de resaltado,
-        // excluyendo contenido dentro de etiquetas <a>
-        
-        return highlightedText.replace(/(<a\b[^>]*>)(.*?)<\/a>|((?:https?:\/\/)?(?:www\.)?tgp\.net\S*)/gi, (match, openingTag, content, url) => {
-          if (openingTag) {
-            // Si el match es una etiqueta <a>, devolverla sin cambios
-            return match;
-          } else if (url && url.includes("tgp.net")) {
-            // Si el match es una URL que inicia con "tgp.net", devolver solo el texto visible del enlace
-            return `<a href="${url}" target="_blank">${url}</a>`;
-          } else {
-             // Si el match no es una etiqueta <a> ni una URL, realizar el resaltado de la palabra buscada
-             return content.replace(regex, (match) => `<span style="background-color: yellow">${match}</span>`);          }    
-
-        });
-      };
-
-
+    const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').split(' ').filter(Boolean).join('|')})`, 'gi');
+    return text.replace(regex, (match) => `<span style="background-color: #F9E897">${match}</span>`);
+  };
 
  
   return (
@@ -87,11 +62,10 @@ function Home () {
         <br />
 
         <div className='skills'> 
-        <SearchInput className='search-input' style={{backgroundColor:'#FAE7F3', padding: '10px'}} placeholder='Buscar...' onChange={handleSearch} />
-        {[...new Set(filteredContent)].map((cuadro, index) => (
+        <SearchInput className='search-input' style={{ backgroundColor: '#FAE7F3', padding: '10px' }} placeholder='Buscar...' onChange={handleSearch} />
+        {[...filteredContent].map((cuadro, index) => (
           <div className='cuadrotexto3' key={index} dangerouslySetInnerHTML={{ __html: highlightSearchTerm(cuadro.innerHTML) }} />
         ))}
-
 
           <div className='general'>
    
