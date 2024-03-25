@@ -58,17 +58,21 @@ const Inciden = () => {
   
   ];
 
-  const containerStyles = {
-    width: "45%",
-    height: "300px",
-    margin: "0 auto",
-  };
+  const slides8= [
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711392105/Guia/seabre_y_cierra_jdkwfz.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711392096/Guia/explorador_dx1tgg.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711393044/Guia/control_explorer_rn64iy.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711392109/Guia/taskmanager_paso_1_lsywqa.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711392107/Guia/nuevatarea_explorer_utlluc.png" },
+  ];
+
+
   return (
     <div>
         <div>
           <h1>Problema outlook, al generar reunión no genera URL de Teams</h1>
-          <div class="carrousel" style={containerStyles}>
-            <ImageSlider slides={slides1} />
+          <div class="carrousel" >
+            <ImageSlider slides={slides1} class="carrousel" />
           </div>
 
         <div className='skills1'> 
@@ -91,7 +95,7 @@ const Inciden = () => {
 
         <div>
           <h1>Problemas con Micrófono en Teams</h1>
-          <div style={containerStyles}>
+          <div class="carrousel">
             <ImageSlider slides={slides2} />
           </div>
 
@@ -116,7 +120,7 @@ const Inciden = () => {
 
         <div>
           <h1>Carpeta compartida no conecta a pesar de tener permisos</h1>
-          <div style={containerStyles}>
+          <div class="carrousel">
             <ImageSlider slides={slides3} />
           </div>
           <div className='skills1'> 
@@ -133,7 +137,7 @@ const Inciden = () => {
 
         <div>
           <h1>Icono de Outlook sale blanco en barra de tareas</h1>
-          <div style={containerStyles}>
+          <div class="carrousel">
             <ImageSlider slides={slides4} />
           </div>
           <div className='skills1'> 
@@ -155,7 +159,7 @@ const Inciden = () => {
         
         <div>
           <h1>Teamviewer arroja ip 192.168 aún con red de TGP con cable ethernet</h1>
-          <div style={containerStyles}>
+          <div class="carrousel">
             <ImageSlider slides={slides5} />
           </div>
           <div className='skills1'> 
@@ -172,7 +176,7 @@ const Inciden = () => {
 
         <div>
           <h1>Outlook no muestra estado de contactos en Teams</h1>
-          <div style={containerStyles}>
+          <div class="carrousel">
             <ImageSlider slides={slides6} />
           </div>
           <div className='skills1'> 
@@ -191,7 +195,7 @@ const Inciden = () => {
 
         <div>
           <h1>Iconos de escritorio muy separados</h1>
-          <div style={containerStyles}>
+          <div class="carrousel">
             <ImageSlider slides={slides7} />
           </div>
           <div className='skills1'> 
@@ -204,6 +208,30 @@ const Inciden = () => {
             </div>
           </div>
         </div>
+
+
+        <div>
+          <h1>Al abrir Windows explorer se cuelga, se pone pantalla oscura y se cierra </h1>
+          <div class="carrousel">
+            <ImageSlider slides={slides8} />
+          </div>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Click en windows explorer y no abre o se cuelga, y aparece pantalla negra.</li>
+                  <li>Para solucionarlo, ingresar en panel de control, en "Opciones del Explorador de archivos".</li>
+                  <li>Seleccionar la opción "Este equipo".</li>
+                  <li>Luego ir a Task manager, en explorador windows y finalizar tarea.</li>
+                  <li>Finalizada la tarea, ejecutar nueva tarea "explorer.exe" y validar.</li>
+                </ol>
+              </div>   
+            </div>
+          </div>
+        </div>
+
+
+
 
     </div>
 
