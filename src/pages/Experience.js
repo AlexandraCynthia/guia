@@ -191,6 +191,12 @@ function Experience() {
   description:""
   },  
   {
+    date:"Derivar con Infraestructura",
+    title:"Servidor SMTP",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711459586/Guia/relay_pixeao.png",
+    description:"Por ejemplo: agregar la siguiente IP 10.158.120.226 a la lista de IPs permitidas para el envío de correos por el servidor SMTP de TGP."
+    }, 
+  {
   date:"Derivar con Infraestructura",
   title:"Encintado de información de la ruta \\tgp.net\areas$\privado\imagenesgis\BASEMAP1",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1709306133/Guia/Encintado_de_infromacion_ymgi0m.png",
