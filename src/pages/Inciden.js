@@ -66,6 +66,14 @@ const Inciden = () => {
     { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711392107/Guia/nuevatarea_explorer_utlluc.png" },
   ];
 
+  
+  const slides9= [
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711471174/Guia/reglas_skcn5u.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1711467928/Guia/reglas1_mtfk1u.png" },
+  
+  ];
+
+
 
   return (
     <div>
@@ -230,13 +238,28 @@ const Inciden = () => {
           </div>
         </div>
 
+        <div>
+          <h1>Exportar / Importar reglas de Outlook </h1>
+          <div class="carrousel">
+            <ImageSlider slides={slides9} />
+          </div>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Click en Inicio / Mover / Reglas / Administrar reglas y alertas .</li>
+                  <li>Ingresar en Opciones y seleccionar "Exportar Reglas".</li>
+                  <li>Realizar mismo procedimiento para importar.</li>
+                </ol>
+              </div>   
+            </div>
+          </div>
+        </div>
+
 
 
 
     </div>
-
-
-
   );
 };
 

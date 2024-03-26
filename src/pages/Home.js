@@ -150,7 +150,7 @@ function Home () {
             <div className='cuadrotexto'>
               <b>Bases:</b>
               <li>Torre Panamá (OTP): Sede principal</li>
-              <li>Cusco  (selva): Kiteni, PS1, PS2, Kamani</li>
+              <li>Cusco  (selva): Kiteni, PS1, PS2, Kamani(PCK)</li>
               <li>Ayacucho (sierra): BOA, PS3, PS4, PCCH o Chiquintirca</li>
               <li>Pisco: San Clemente</li>
             </div>
