@@ -26,9 +26,7 @@ function Documentos () {
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1709177585/Guia/KE_Checkpoint_Error_NoNetworkDetected_nfmvly.pptx">VPN: Error de conexión</a></b> </li>
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1709177586/Guia/KE_RSA_solicita_contrase%C3%B1a_para_iniciar_z3ccti.pptx">VPN: RSA solicita contraseña</a></b> </li>
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1709178018/IOP-COG-MDA-035_Soporte_a_RSA_-_VPN_nmlqum.docx">VPN: Pasos para el uso del aplicativo RSA</a></b> </li>
-
-
-
+            <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1711583145/Guia/Procedimiento_para_remover_cuentas_almacenadas_en_el_equipo_jhxmbn.docx">Procedimiento para remover credenciales almacenadas en equipo - PSExec</a></b> </li>
           </div>
         </div>
 

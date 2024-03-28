@@ -62,7 +62,7 @@ function Home () {
         <br />
 
         <div className='skills'> 
-        <SearchInput className='search-input' style={{ backgroundColor: '#FAE7F3', padding: '10px' }} placeholder='Buscar...' onChange={handleSearch} />
+        <SearchInput className='search-input' style={{ backgroundColor: '#FFF7FC', padding: '10px' }} placeholder='Buscar...' onChange={handleSearch} />
         {[...filteredContent].map((cuadro, index) => (
           <div className='cuadrotexto3' key={index} dangerouslySetInnerHTML={{ __html: highlightSearchTerm(cuadro.innerHTML) }} />
         ))}
@@ -129,6 +129,7 @@ function Home () {
               <b>Crear nuevo usuario contratista:</b>
               <li>Se requiere la aprobación de Ivone Jara (Infraestructura) y Gianmarco Ordoñez (recursos humanos).</li>
               <li>El responsable TGP del contratista, deberá ingresar en este <a href="https://cutt.ly/nw2m9v2m" target='_blank'><b>enlace</b></a> para solicitar la creación de nuevo usuario contratista.</li>
+              <li>Se deberá completar cada campo con la información del proveedor en la pestaña "Alta de contratista". </li>
               </div>
 
 

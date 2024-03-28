@@ -190,6 +190,14 @@ function Experience() {
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1709306133/Guia/file_server_lofnuf.png",
   description:""
   },  
+
+  {
+    date:"Derivar con Infraestructura",
+    title:"Listado de asistentes a reunión de Teams",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711582364/Guia/reunionteams_vep1ib.png",
+    description:"Tener en cuenta que la reunión deberá tener como máximo un mes de antiguedad."
+  },
+
   {
     date:"Derivar con Infraestructura",
     title:"Servidor SMTP",
