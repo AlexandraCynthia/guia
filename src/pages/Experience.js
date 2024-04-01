@@ -206,7 +206,7 @@ function Experience() {
     }, 
   {
   date:"Derivar con Infraestructura",
-  title:"Encintado de información de la ruta \\tgp.net\areas$\privado\imagenesgis\BASEMAP1",
+  title:"Encintado de información de la ruta \\tgp.net\areas$\privado...",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1709306133/Guia/Encintado_de_infromacion_ymgi0m.png",
   description:""
   },   
