@@ -204,6 +204,14 @@ function Experience() {
     image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1711459586/Guia/relay_pixeao.png",
     description:"Por ejemplo: agregar la siguiente IP 10.158.120.226 a la lista de IPs permitidas para el envío de correos por el servidor SMTP de TGP."
     }, 
+
+{
+    date:"Derivar con Infraestructura",
+    title:"Añadir correo a la lista negra",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1712610817/Guia/lista_negra_flgty0.png",
+    description:""
+    }, 
+
   {
   date:"Derivar con Infraestructura",
   title:"Encintado de información de la ruta \\tgp.net\areas$\privado...",
@@ -391,6 +399,13 @@ function Experience() {
   title:"Reseteo de contraseña de SAP",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1704499046/Guia/resetear_clave_sap_kodeuo.png",
   description:""
+  }
+  ,
+  {
+  date:"Derivar con SAP",
+  title:"Anulación de reserva - SAP",
+  image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1712608961/Guia/anulacion_reserva_qmtmve.png",
+  description:"Derivar ticket con Miguel Acosta"
   }
   ];
 

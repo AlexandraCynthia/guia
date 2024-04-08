@@ -73,6 +73,15 @@ const Inciden = () => {
   
   ];
 
+  const slides10= [
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1712610317/Guia/paso1_i3zu6s.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1712610317/Guia/paso2_v55epm.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1712610992/Guia/paso3_ckec2w.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1712610318/Guia/paso4_xxq8a1.png" },
+    { url: "https://res.cloudinary.com/dgxnatqij/image/upload/v1712610318/Guia/paso5_s3pnpu.png" }
+  
+  ];
+
 
 
   return (
@@ -256,6 +265,25 @@ const Inciden = () => {
           </div>
         </div>
 
+        <div>
+          <h1>Como cambiar de ubicación archivo OST - Outlook </h1>
+          <div class="carrousel">
+            <ImageSlider slides={slides10} />
+          </div>
+          <div className='skills1'> 
+            <div className='general1'>
+              <div className="cuadrotexto1">
+                <ol class="texto">
+                  <li>Crear nuevo perfil de Outlook.</li>
+                  <li>Ingresar credenciales.</li>
+                  <li>Hacer click en cambiar configuración de la cuenta.</li>
+                  <li>Click en más configuraciones.</li>
+                  <li>Click en las opciones indicadas, y seleccionar la nueva ubicación del archivo ost.</li>
+                </ol>
+              </div>   
+            </div>
+          </div>
+        </div>
 
 
 

@@ -270,7 +270,7 @@ function Home () {
               <li>Servidor de aplicación/Application Server: <font color="#4F709C">172.30.111.213</font></li>
               <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
               <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
-            </div>
+             </div>
 
             <div className="cuadrotexto">
               <b>Aplicaciones para derivar con Marco Miranda</b>
