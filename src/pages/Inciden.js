@@ -274,7 +274,7 @@ const Inciden = () => {
             <div className='general1'>
               <div className="cuadrotexto1">
                 <ol class="texto">
-                  <li>Crear nuevo perfil de Outlook.</li>
+                  <li>Crear nuevo perfil de Outlook. Previo a esto, se debe haber copiado al OST de la ubicación actual, a la ubicación donde se desea que esté.</li>
                   <li>Ingresar credenciales.</li>
                   <li>Hacer click en cambiar configuración de la cuenta.</li>
                   <li>Click en más configuraciones.</li>
