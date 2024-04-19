@@ -185,6 +185,12 @@ function Experience() {
   description:"Para solicitar ampliar la cuenta de un usuario externo, lo puede pedir cualquier usuario de TGP."
   },   
   {
+    date:"Derivar con Infraestructura",
+    title:"Obtención de documento de logs Evoko",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1713543797/Guia/evoko_s1k9qe.png",
+    description:"Obtención de documento de logs de Evoko ubicado en el servidor DMZ14. "
+  },  
+  {
   date:"Derivar con Infraestructura",
   title:"Ticket para File Server",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1709306133/Guia/file_server_lofnuf.png",
