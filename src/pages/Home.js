@@ -121,8 +121,11 @@ function Home () {
             </div>
 
             <div className='cuadrotexto'>
-              <b>Habilitar dispotivo usb:</b>
+              <b>Habilitar dispotivo usb / celular:</b>
               <li>Se deberá ejecutar listdeviceinfo.exe. Al ejecutarlo mostrará la información del dispositivo en el navegador predeterminado, y se deberá guardar como archivo HTML con las siglas de usuario. Se derivará al área de seguridad de la información para su habilitación. No requiere vistos buenos.</li>
+              <li>Para habilitar celulares:</li>
+              <li>Si el antivirus bloquea el acceso al celular (para visualizar fotos), se deberá tomar una captura del log del antivirus, y también tomar nota del Hostname del equipo. Se deberá derivar el ticket a seguridad de la información.</li>
+              <li>Si el antivirus no genera bloqueo del celular, solo se deberá habilitar el celular con clave de administrador, ingresando en ejecutar - devmgmt.msc</li>
             </div>
 
             <div className='cuadrotexto'>
@@ -159,7 +162,7 @@ function Home () {
             <div className='cuadrotexto'>
               <b>Cuentas de usuario:</b>
               <li><b>Desbloqueo</b>: Se realizará a través del HDO realizando las preguntas de seguridad requeridas (nombre, apellido y siglas de usuario).</li>
-              <li><b>Reseteo de contraseña</b>: Se podrá hacer a través del HDO solicitando preguntas de seguridad (nombres, apellidos, siglas, DNI, si es externo: consultar también cargo, empresa, responsable tgp). El usuario también podrá realizar con las teclas ctrl + alt + spr, donde al bloquear la pantalla le mostrará dicha opción. Se deberá realizar con cable ethernet conectado. </li>
+              <li><b>Reseteo de contraseña</b>: El usuario podrá realizarlo con las teclas ctrl + alt + spr, donde al bloquear la pantalla le mostrará dicha opción (con cable ethernet TGP conectado). También se puede realizar a través del HDO solicitando preguntas de seguridad (nombres, apellidos, siglas, DNI, si es externo: consultar también cargo, empresa, responsable tgp).  </li>
               <li><b>Extensión de cuenta de usuario</b>: Lo deberá solicitar el jefe inmediato del usuario al correo de service desk.</li>
             </div>
 
@@ -185,9 +188,7 @@ function Home () {
               <li>Kamani: \\TKAMPS02</li>
               <li>PS1: \\TPS1PS01</li>
               <li>PS3 y PS4: \\TPS3PS01</li>
-
-
-              </div>
+            </div>
 
             <div className="cuadrotexto">
                 <b>Cuentas SAP</b>
@@ -270,6 +271,15 @@ function Home () {
               <li>Servidor de aplicación/Application Server: <font color="#4F709C">172.30.111.213</font></li>
               <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
               <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
+              <br />
+              <b>Parámetros SAP COGA PRD Router</b>
+              <b> Para conexión en red externa</b>
+              <li>Descripción/Description: <font color="#4F709C">SAP COGA PRD Router</font></li>
+              <li>Servidor de aplicación/Application Server: <font color="#4F709C">tlursap01</font></li>
+              <li>Router : <font color="#4F709C">/H/200.31.99.48</font></li>
+              <li>Número de instancia/Instance Number: <font color="#4F709C">00</font></li>
+              <li>ID Sistema/System ID: <font color="#4F709C">CGP</font></li>
+
              </div>
 
             <div className="cuadrotexto">
@@ -308,7 +318,7 @@ function Home () {
             <div className="cuadrotexto">
                 <b>Solicitud de Restauración (backup) de usuarios que ya no laboran en TGP. Para recuperar un backup se necesitan 2 aprobaciones:</b>
                 <li>VB gerente área </li>
-                <li>VB Neptali Mayorga (Gerente de área de tecnología de la información) </li>
+                <li>VB Claudia Sarmiento (Gerente de área de tecnología de la información) </li>
                 <li>Se derivará con Infraestructura</li>
                 <li>Si el usuario está activo y solicita una restauración, derivar directamente con Infraestructura.</li>
               </div>

@@ -14,7 +14,15 @@
     width: 120%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @media (min-width: 300px) and (max-width: 575px){
+    body{
+        overflow-x: hidden;
+    }
+    
   img{
         width: 100%;
         height: auto;
@@ -34,6 +42,9 @@
 
 }
 @media (min-width: 576px) and (max-width: 768px){
+
+    
+
     .search-input1{
         padding-right: 5%;
         padding-top:2.5%;
