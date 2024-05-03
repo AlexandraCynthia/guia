@@ -10,7 +10,6 @@ function Documentos () {
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1707423322/Guia/FORMULARIO_CREACION_DE_CUENTA_SAP_vybt2q.docx">Formulario de alta SAP</a></b> </li>
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708640255/Declaraci%C3%B3n_Jurada_Simple_perdida_nwex3z.docx">Declaración jurada de pérdida</a></b> </li>
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708640261/Modelo_de_Declaraci%C3%B3n_Jurada_de_Hardware_y_Software_a4j7a4.docx">Declaración jurada de Hardware y software</a></b> </li>
-            <li><b><a href="https://docs.google.com/spreadsheets/d/1hugzd8GBVpFFciFk5namez1ItiRcv0KnwNCQ4UaUyUk/edit#gid=298350456" target='_blank'>Tickets diarios en N1</a></b> </li>
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708640430/Requerimientos_WHD_relevamiento_ke7yjy.xlsx">Gestión de Tickets Telecomunicaciones</a></b> </li>
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708640547/Instructivo_conectar_un_equipo_Android_a_la_red_TGP_MOBILE_1_v3krg2.pptx">Guía para conectar celulares a red Tgp_wlan</a></b> </li>
             <li><b><a href="https://res.cloudinary.com/dgxnatqij/raw/upload/v1708640616/Categor%C3%ADasServicedesk_ve1xei.xlsx">Matriz de escalamiento N1</a></b> </li>

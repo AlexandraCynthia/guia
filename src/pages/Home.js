@@ -180,7 +180,6 @@ function Home () {
 
             <div className="cuadrotexto">
               <b>Colas de impresión:</b>
-              <p>Si no es posible conectar, instalar Driver_Epson_x64\WINX64\SETUP, y luego dar en connect en las siguientes rutas: </p>
               <li>Lima (OTP y Lurin):  \\tlimps02</li>
               <li>Ayacucho: \\Tayaps01</li>
               <li>Pisco: \\Tpisps01</li>
@@ -188,6 +187,8 @@ function Home () {
               <li>Kamani: \\TKAMPS02</li>
               <li>PS1: \\TPS1PS01</li>
               <li>PS3 y PS4: \\TPS3PS01</li>
+              <p>Si no es posible conectar, instalar Driver_Epson_x64\WINX64\SETUP, y luego dar en connect en las rutas mencionadas. </p>
+
             </div>
 
             <div className="cuadrotexto">
