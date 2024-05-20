@@ -198,7 +198,7 @@ function Home () {
                 <li>En el caso de altas SAP, se deberá solicitar al usuario que llene este <a href="https://cutt.ly/Sw2m39DJ"><b>formulario</b></a> de alta SAP. Una vez llenado, se deberá pedir el visto bueno de Claudia Sarmiento y derivar al área de SAP</li>
             </div>
 
-            <div>
+            <div className="cuadrotexto">
               <b>Derivaciones con Fidel Zárate:</b>
               <li>Acceso a <a href="https://coga.bravosolution.com/">Portal Bravo o Portal de compras</a> </li>
               <li>Anulación de reserva SAP, también lo atenderá Miguel Acosta de esa misma área.</li>
