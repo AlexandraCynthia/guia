@@ -103,6 +103,7 @@ const Inciden = () => {
                   <li>dar click en habilitar</li>
                   <li>Verificar si hay actualizaciones pendientes.</li>
                   <li>Si lo anterior está correcto, cerrar Teams, también Outlook y validar.</li>
+                  <li>Validar cambiando a nueva versión de Teams.</li>
                   <li>Si las anteriores opciones no tienen éxito, reinstalar Teams.</li>
                 </ol>
               </div>
