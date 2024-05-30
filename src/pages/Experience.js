@@ -178,6 +178,12 @@ function Experience() {
     image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1714690927/Guia/autenticator_djbeyp.png",
     description:"Incidencia reportada cuando el usuario no puede iniciar sesión en sharepoint con el Authenticator, por cambio de número o cambio de celular."
     }, 
+    {
+      date:"Derivar con Infraestructura",
+      title:"Actualización de Agentes Deep Security",
+      image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1716835046/Guia/deep_security_an9pqz.png",
+      description:""
+      }, 
   {
   date:"Derivar con Infraestructura",
   title:"Ampliar vigencia de usuario de red",
@@ -277,12 +283,17 @@ function Experience() {
     description:""
   },
 
-
+  {
+    date:"Atención en nivel 1",
+    title:"Desbloqueo de usuario",
+    image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1716828129/Guia/bloqueo_ievl41.png",
+    description:"Solicitar nombres, apellidos y siglas de usuario"
+    },  
   {
   date:"Atención en nivel 1",
   title:"Instalación de cola de impresión",
   image:"https://res.cloudinary.com/dgxnatqij/image/upload/v1704499072/Guia/cola_impresion_etgesz.png",
-  description:""
+  description:"Consultar al usuario en qué base se encuentra."
   },  
   {
   date:"Atención en nivel 1",
@@ -434,7 +445,7 @@ function Experience() {
         className="search-input1"
         onChange={handleChange}
         placeholder="Buscar..."
-        style={{width:'15%', backgroundColor:'#FFFDCB', padding: '15px', margin: '10px'}}
+        style={{backgroundColor:'#FFFDCB', padding: '15px', margin: '10px'}}
       />
       {/* Renderizar los elementos filtrados */}
       {renderFilteredElements()}

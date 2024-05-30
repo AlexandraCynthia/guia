@@ -18,39 +18,71 @@ body{
     overflow-x: hidden;
 }
 
-@media (min-width: 300px) and (max-width: 575px){
+@media (min-width: 312px) and (max-width: 575px){
     body{
         overflow-x: hidden;
     }
+
+    div .experience{
+        width: 400px;
+    }
     
   img{
-        width: 100%;
+        width: 200px !important;
         height: auto;
     }
     .search-input1{
         padding-right: 5%;
         padding-top:2.5%;
         margin-left: 35%;
-        width: 200%;
+    }
+
+   div .search-input1{
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    }
+
+    input{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     }
 
     .vertical-timeline-element-content {
-        width: 270px;
+        width: 230px;
     }
+
+    .app{
+        width: 312px;
+        margin: 0;
+        padding: 0;
+      }
 
   
 
 }
 @media (min-width: 576px) and (max-width: 768px){
 
-    
+    input{
+        width: 250px;
+    }
 
     .search-input1{
         padding-right: 5%;
         padding-top:2.5%;
         margin-left: 35%;
-        width: 250%;
+        width: 300px;
     }
+
+    div .search-input1{
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+
     img{
         width: 100%;
         height: auto;
@@ -61,6 +93,7 @@ body{
 
    
 
+   
 }
 @media (min-width: 769px) and (max-width: 991px){
 
@@ -72,12 +105,55 @@ body{
         padding-right: 5%;
         padding-top:2.5%;
         margin-left: 35%;
-        width: 250%;
+        width: 700px;
+    }
+
+    div .search-input1{
+        width: 700px;
+        margin: 0;
+        padding: 0;
+    }
+
+    input{
+        width:300px
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
-    img{
-        width: 100%;
-        height: auto;
+    .search-input1{
+        padding-right: 5%;
+        padding-top:2.5%;
+        margin-left: 35%;
+        width: 700px;
+    }
+
+    div .search-input1{
+        width: 700px;
+        margin: 0;
+        padding: 0;
+    }
+
+    input{
+        width:320px
+    }
+
+}
+@media (min-width: 1201px){
+    .search-input1{
+        padding-right: 5%;
+        padding-top:2.5%;
+        margin-left: 35%;
+        width: 200px !important;
+        display: flex;
+        margin-left: 41% !important;
+    }
+
+    div .search-input1{
+        width: 700px;
+        margin: 0;
+        padding: 0;
+    }
+
+    input{
+        width:320px
     }
 }

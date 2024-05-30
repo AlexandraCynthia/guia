@@ -1,6 +1,6 @@
 {
   "homepage": "https://alexandracynthia.github.io/guia",
-  "name": "my-first-react-app",
+  "name": "guia",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -50,5 +50,9 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
