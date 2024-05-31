@@ -153,7 +153,7 @@ function Home () {
 
             <div className='cuadrotexto'>
               <b>Bases:</b>
-              <li>Torre Panamá (OTP): Sede principal</li>
+              <li>Lima: Torre Panamá (OTP) y Base Lurin</li>
               <li>Cusco  (selva): Kiteni, PS1, PS2, Kamani(PCK)</li>
               <li>Ayacucho (sierra): BOA, PS3, PS4, PCCH o Chiquintirca</li>
               <li>Pisco: San Clemente</li>
@@ -279,14 +279,20 @@ function Home () {
               <li>Número de instancia/Instance Number: <font color="#4F709C">01</font></li>
               <li>ID Sistema/System ID: <font color="#4F709C">CG3</font></li>
               <br />
-              <b>Parámetros SAP COGA PRD Router</b>
-              <b> Para conexión en red externa</b>
-              <li>Descripción/Description: <font color="#4F709C">SAP COGA PRD Router</font></li>
+              <b>Parámetros SAP TGP Producción (red de TGP)</b>
+              <li>Descripción/Description: <font color="#4F709C">SAP TGP Producción</font></li>
+              <li>Servidor de aplicación/Application Server: <font color="#4F709C">tlursap01</font></li>
+              <li>Router : <font color="#4F709C"></font></li>
+              <li>Número de instancia/Instance Number: <font color="#4F709C">00</font></li>
+              <li>ID Sistema/System ID: <font color="#4F709C">CGP</font></li>
+              <br />
+              <b>Parámetros SAP TGP PRD Router (red externa)</b>
+              <li>Descripción/Description: <font color="#4F709C">SAP TGP PRD Router</font></li>
               <li>Servidor de aplicación/Application Server: <font color="#4F709C">tlursap01</font></li>
               <li>Router : <font color="#4F709C">/H/200.31.99.48</font></li>
               <li>Número de instancia/Instance Number: <font color="#4F709C">00</font></li>
               <li>ID Sistema/System ID: <font color="#4F709C">CGP</font></li>
-
+              <br />
              </div>
 
             <div className="cuadrotexto">
